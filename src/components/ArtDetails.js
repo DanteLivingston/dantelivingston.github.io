@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import LazyLoad from 'react-lazyload';
+import Image from './Image';
 
 function ArtDetails() {
   let { slug } = useParams();
@@ -15,17 +16,15 @@ function ArtDetails() {
   return (
     <>
       <PageTitle>{project.title}</PageTitle>
-      <div className="row">
-        <div className="col-4">
-          <blockquote
-            dangerouslySetInnerHTML={{ __html: project.description }}
-          />
+      <div className='row'>
+        <div className='col-4'>
+          <blockquote dangerouslySetInnerHTML={{ __html: project.description }} />
         </div>
-        <div className="col-8">
-          <div className="row">
+        <div className='col-8'>
+          <div className='row'>
             {project.images.map((image, index) => (
               <div
-                className="col-sm-4 cursor-pointer"
+                className='col-sm-4 cursor-pointer'
                 key={index}
                 onClick={() => {
                   setImageIndex(index);
@@ -33,11 +32,12 @@ function ArtDetails() {
                 }}
               >
                 <LazyLoad height={400}>
-                  <img
-                    alt={image.title}
+                  <Image
+                    hasLink={true}
+                    height='300'
+                    keepAspectRatio={true}
                     title={image.title}
-                    src={image.url}
-                    className="w-100 rounded"
+                    url={image.url}
                   />
                 </LazyLoad>
                 {image.title}
@@ -52,16 +52,10 @@ function ArtDetails() {
           imageCaption={project.images[imageIndex].description}
           mainSrc={project.images[imageIndex].url}
           nextSrc={project.images[(imageIndex + 1) % imageLength].url}
-          prevSrc={
-            project.images[(imageIndex + imageLength - 1) % imageLength].url
-          }
+          prevSrc={project.images[(imageIndex + imageLength - 1) % imageLength].url}
           onCloseRequest={() => setIsModalOpen(!isModalOpen)}
-          onMovePrevRequest={() =>
-            setImageIndex((imageIndex + imageLength - 1) % imageLength)
-          }
-          onMoveNextRequest={() =>
-            setImageIndex((imageIndex + 1) % imageLength)
-          }
+          onMovePrevRequest={() => setImageIndex((imageIndex + imageLength - 1) % imageLength)}
+          onMoveNextRequest={() => setImageIndex((imageIndex + 1) % imageLength)}
         />
       )}
     </>

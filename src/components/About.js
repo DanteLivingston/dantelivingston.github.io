@@ -2,6 +2,8 @@ import { SocialIcon } from 'react-social-icons';
 import PageTitle from './PageTitle';
 import strings from '../config/strings';
 import Art from './Art';
+import Image from './Image';
+import about from '../config/about';
 
 function About() {
   return (
@@ -9,14 +11,13 @@ function About() {
       <PageTitle>{strings.about}</PageTitle>
       <div className='row'>
         <div className='col-4'>
-          <img
-            alt='Dante Livingston'
-            className='w-100'
-            src='http://dummyimage.com/400x400.jpg/cc00dd/ffffff'
+          <Image
+            title={strings.danteLivingston}
+            url='http://dummyimage.com/400x400.jpg/cc00dd/ffffff'
             height='300'
           />
         </div>
-        <div className='col-8'>{strings.aboutStatement}</div>
+        <div className='col-8' dangerouslySetInnerHTML={{ __html: about }}></div>
       </div>
       <hr className='border-secondary my-4' />
       <div className='row'>

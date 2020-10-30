@@ -1,6 +1,5 @@
 import { HashRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
 import About from './About';
-import './App.css';
 import Art from './Art';
 import ArtDetails from './ArtDetails';
 import Home from './Home';

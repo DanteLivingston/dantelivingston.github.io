@@ -27,7 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "markdown": "node scripts/markdown",
-    "markdown-watch": "chokidar \"src/config/projects/**/*.md\" --initial -c \"npm run markdown\""
+    "markdown-watch": "chokidar \"src/config/**/*.md\" --initial -c \"npm run markdown\""
   },
   "eslintConfig": {
     "extends": [

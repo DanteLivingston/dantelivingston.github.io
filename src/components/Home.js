@@ -7,29 +7,31 @@ import {
   CarouselIndicators,
   CarouselItem,
 } from 'reactstrap';
-import './Home.css';
 import projects from '../config/projects';
 import PageTitle from './PageTitle';
 import strings from '../config/strings';
 import { useHistory } from 'react-router-dom';
+import Image from './Image';
 
 function Home() {
   let history = useHistory();
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
+  const filteredProjects = projects.filter(({ type }) => type !== 'inspiration');
 
-  const firstDigitalImage = projects.find(({ type }) => type === 'digital').images[0];
-  const firstTraditionalImage = projects.find(({ type }) => type === 'traditional').images[0];
+  const firstDigitalImage = filteredProjects.find(({ type }) => type === 'digital').images[0];
+  const firstTraditionalImage = filteredProjects.find(({ type }) => type === 'traditional')
+    .images[0];
 
   const next = () => {
     if (animating) return;
-    const nextIndex = activeIndex === projects.length - 1 ? 0 : activeIndex + 1;
+    const nextIndex = activeIndex === filteredProjects.length - 1 ? 0 : activeIndex + 1;
     setActiveIndex(nextIndex);
   };
 
   const previous = () => {
     if (animating) return;
-    const nextIndex = activeIndex === 0 ? projects.length - 1 : activeIndex - 1;
+    const nextIndex = activeIndex === 0 ? filteredProjects.length - 1 : activeIndex - 1;
     setActiveIndex(nextIndex);
   };
 
@@ -37,16 +39,20 @@ function Home() {
     if (animating) return;
     setActiveIndex(newIndex);
   };
-  // TODO- carousel shows first image
+
   return (
     <>
       <PageTitle>{strings.home}</PageTitle>
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
-        <CarouselIndicators items={projects} activeIndex={activeIndex} onClickHandler={goToIndex} />
-        {projects
+        <CarouselIndicators
+          items={filteredProjects}
+          activeIndex={activeIndex}
+          onClickHandler={goToIndex}
+        />
+        {filteredProjects
           .filter(({ type }) => type !== 'inspiration')
           .map((project) => {
-            const firstImage = projects[0].images[0];
+            const firstImage = filteredProjects[0].images[0];
             return (
               <CarouselItem
                 onExiting={() => setAnimating(true)}
@@ -54,9 +60,14 @@ function Home() {
                 key={project.slug}
               >
                 <Link to={`/art-details/${project.slug}`}>
-                  <img src={firstImage.url} alt={firstImage.title} className='w-100' height='500' />
+                  <Image
+                    hasLink={true}
+                    url={firstImage.url}
+                    title={firstImage.title}
+                    height='400'
+                    keepAspectRatio={true}
+                  />
                 </Link>
-
                 <CarouselCaption
                   captionHeader={project.title}
                   captionText={project.shortDescription}
@@ -71,39 +82,37 @@ function Home() {
       <div className='row'>
         <div className='col-sm-6'>
           <div className='card'>
-            <img
-              src={firstDigitalImage.url}
-              className='card-img-top cursor-pointer'
-              alt={firstDigitalImage.title}
+            <Image
+              className='card-img-top'
+              hasLink={true}
+              keepAspectRatio={true}
               onClick={() => history.push('digital-art')}
-              height='300'
+              title={firstDigitalImage.title}
+              url={firstDigitalImage.url}
             />
             <div className='card-body'>
-              <h5 className='card-title'>Digital Art</h5>
-              <p className='card-text'>
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
-              </p>
-              <Link to='/digital-art'>Digital Art</Link>
+              <h5 className='card-title'>
+                <Link to='/digital-art'>{strings.digital}</Link>
+              </h5>
+              <p className='card-text'>{strings.digitalDescription}</p>
             </div>
           </div>
         </div>
         <div className='col-sm-6'>
           <div className='card'>
-            <img
-              src={firstTraditionalImage.url}
-              className='card-img-top cursor-pointer'
-              alt={firstTraditionalImage.title}
+            <Image
+              className='card-img-top'
+              hasLink={true}
+              keepAspectRatio={true}
               onClick={() => history.push('traditional-art')}
-              height='300'
+              title={firstTraditionalImage.title}
+              url={firstTraditionalImage.url}
             />
             <div className='card-body'>
-              <h5 className='card-title'>Traditional Art</h5>
-              <p className='card-text'>
-                Some quick example text to build on the card title and make up the bulk of the
-                card's content.
-              </p>
-              <Link to='/digital-art'>Traditional Art</Link>
+              <h5 className='card-title'>
+                <Link to='/traditional-art'>{strings.traditional}</Link>
+              </h5>
+              <p className='card-text'>{strings.traditionalDescription}</p>
             </div>
           </div>
         </div>

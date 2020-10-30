@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import './Home.css';
 import projects from '../config/projects';
 import PageTitle from './PageTitle';
 import strings from '../config/strings';
+import Image from './Image';
 
 function Art({ type }) {
   return (
@@ -15,18 +15,11 @@ function Art({ type }) {
             return (
               <div className='col-sm-4 mb-4 text-center' key={project.slug}>
                 <Link to={`/art-details/${project.slug}`}>
-                  <img
-                    alt={project.title}
+                  <Image
+                    hasLink={true}
+                    keepAspectRatio={true}
                     title={project.title}
-                    src={project.images[0].url}
-                    className='w-100 rounded thumbnail'
-                    style={{
-                      objectFit: 'cover',
-                      height: '200px',
-                      '&:hover': {
-                        filter: 'grayscale(100%)',
-                      },
-                    }}
+                    url={project.images[0].url}
                   />
                 </Link>
                 {`${project.title} (${project.images.length})`}
