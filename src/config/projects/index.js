@@ -3,7 +3,10 @@ import digitalTextures from './digital-textures/config';
 
 const projects = [
   template,
-  digitalTextures 
+  // Digital Art
+  digitalTextures,
+  // Traditional Art
+
 ];
 
 export default projects;
