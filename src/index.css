@@ -6,6 +6,10 @@ h2 {
   font-size: 1.40625rem !important;
 }
 
+a:hover {
+  color: #00bc8c !important;
+}
+
 main > .container {
   padding: 60px 15px 0;
 }
