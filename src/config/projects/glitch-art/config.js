@@ -1,30 +1,30 @@
 import description from './description';
 
-import bigRedImage from './images/big-red-image.jpg';
-import smallOrangeImage from './images/small-orange-image.jpg';
-import smallRedImage from './images/small-red-image.png';
+import DogGlitchArt from './images/Dog_GlitchArt.PNG';
+import EverestGlitchArt from './images/Everest_GlitchArt.jpg';
+import ForestGlitchArt from './images/Forest_GlitchArt.jpg';
 
 const config = {
   slug: 'glitch-art',
   title: 'Glitch Art',
   shortDescription: 'test',
   description,
-  type: 'traditional',
+  type: 'digital',
   images: [
     {
-      url: bigRedImage,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
+      url: EverestGlitchArt,
+      title: 'Glitch art of Mount Everest',
+      description: 'Made 2018',
     },
     {
-      url: smallOrangeImage,
-      title: 'ridiculus mus',
-      description: 'lorem ipsum foobar ridiculus mus',
+      url: DogGlitchArt,
+      title: 'Glitch art of a dog',
+      description: 'Made 2018',
     },
     {
-      url: smallRedImage,
-      title: 'quisque ut',
-      description: 'lorem ipsum foobar quisque ut',
+      url: ForestGlitchArt,
+      title: 'Glitch art of a Pacific Northwest Forest',
+      description: 'Made 2018',
     },
   ],
 };

@@ -23,6 +23,6 @@ hr {
 }
 
 .has-link:hover {
-  filter: grayscale(50%);
+  filter: grayscale(70%);
   cursor: pointer;
 }
