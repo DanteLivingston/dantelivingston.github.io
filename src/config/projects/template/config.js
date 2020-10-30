@@ -6,7 +6,7 @@ import smallRedImage from './images/small-red-image.png';
 
 const config = {
   slug: 'template-example',
-  title: 'Template Example',
+  title: 'Template Sample',
   description,
   type: 'digital',
   images: [
