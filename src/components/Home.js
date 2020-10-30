@@ -50,15 +50,15 @@ function Home() {
           activeIndex={activeIndex}
           onClickHandler={goToIndex}
         />
-        {projects.map((image) => {
+        {projects.map((project) => {
           const firstImage = projects[0].images[0];
           return (
             <CarouselItem
               onExiting={() => setAnimating(true)}
               onExited={() => setAnimating(false)}
-              key={image.slug}
+              key={project.slug}
             >
-              <Link to={`/art-details/${image.slug}`}>
+              <Link to={`/art-details/${project.slug}`}>
                 <img
                   src={firstImage.url}
                   alt={firstImage.title}
@@ -68,8 +68,7 @@ function Home() {
               </Link>
 
               <CarouselCaption
-                captionText={image.description}
-                captionHeader={image.title}
+                captionHeader={project.title}
               />
             </CarouselItem>
           );
