@@ -75,6 +75,7 @@ function App() {
             {strings.footer}
             {strings.socialLinks.map((socialLink) => (
               <SocialIcon
+                key={socialLink.network}
                 style={{ height: 35, width: 35 }}
                 className='ml-3'
                 network={socialLink.network}
