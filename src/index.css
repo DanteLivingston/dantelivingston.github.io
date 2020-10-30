@@ -6,6 +6,10 @@ h2 {
   font-size: 1.40625rem !important;
 }
 
+a:hover {
+  color: #00bc8c !important;
+}
+
 main > .container {
   padding: 60px 15px 0;
 }
@@ -22,7 +26,12 @@ hr {
   border-color: #444 !important;
 }
 
+.has-link {
+  border: 1px solid transparent;
+}
+
 .has-link:hover {
   filter: grayscale(70%);
   cursor: pointer;
+  border: 1px solid #00bc8c;
 }

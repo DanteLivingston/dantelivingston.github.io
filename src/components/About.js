@@ -22,41 +22,25 @@ function About() {
       <hr className='border-secondary my-4' />
       <div className='row'>
         <div className='col-sm-2'></div>
-        <div className='col-sm-2 text-center'>
-          <SocialIcon
-            network='github'
-            rel='noopener noreferrer'
-            target='_blank'
-            url={strings.socialGitHubUrl}
-          />
-        </div>
-        <div className='col-sm-2 text-center'>
-          <SocialIcon
-            network='reddit'
-            rel='noopener noreferrer'
-            target='_blank'
-            url={strings.socialRedditUrl}
-          />
-        </div>
-        <div className='col-sm-2 text-center'>
-          <SocialIcon
-            network='youtube'
-            rel='noopener noreferrer'
-            target='_blank'
-            url={strings.socialYouTubeUrl}
-          />
-        </div>
-        <div className='col-sm-2 text-center'>
-          <SocialIcon
-            network='linkedin'
-            rel='noopener noreferrer'
-            target='_blank'
-            url={strings.socialLinkedInUrl}
-          />
-        </div>
+        {strings.socialLinks.map((socialLink) => (
+          <div className='col-sm-2 text-center'>
+            <SocialIcon
+              style={{ height: 50, width: 50 }}
+              className='ml-3'
+              network={socialLink.network}
+              rel='noopener noreferrer'
+              target='_blank'
+              title={socialLink.title}
+              url={socialLink.url}
+            />
+          </div>
+        ))}
         <div className='col-sm-2'></div>
       </div>
       <hr />
+      <blockquote className='blockquote'>
+        <small class='mb-0'>{strings.inspirationDisclaimer}</small>
+      </blockquote>
       <Art type='inspiration' />
     </>
   );
