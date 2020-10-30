@@ -7,6 +7,7 @@ import smallRedImage from './images/small-red-image.png';
 const config = {
   slug: 'digital-textures',
   title: 'Template Sample',
+  shortDescription: 'A sample with a template',
   description,
   type: 'digital',
   images: [

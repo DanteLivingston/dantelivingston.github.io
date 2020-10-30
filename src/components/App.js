@@ -10,37 +10,37 @@ function App() {
   return (
     <Router>
       <header>
-        <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-          <div className="container">
-            <a className="navbar-brand" href="/">
+        <nav className='navbar navbar-expand-lg navbar-dark fixed-top bg-dark'>
+          <div className='container'>
+            <a className='navbar-brand' href='/'>
               {strings.danteLivingston}
             </a>
             <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarCollapse"
-              aria-controls="navbarCollapse"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+              className='navbar-toggler'
+              type='button'
+              data-toggle='collapse'
+              data-target='#navbarCollapse'
+              aria-controls='navbarCollapse'
+              aria-expanded='false'
+              aria-label='Toggle navigation'
             >
-              <span className="navbar-toggler-icon" />
+              <span className='navbar-toggler-icon' />
             </button>
-            <div className="collapse navbar-collapse" id="navbarCollapse">
-              <ul className="navbar-nav mr-auto">
-                <li className="nav-item">
-                  <NavLink to="/about" className="nav-link">
+            <div className='collapse navbar-collapse' id='navbarCollapse'>
+              <ul className='navbar-nav mr-auto'>
+                <li className='nav-item'>
+                  <NavLink to='/about' className='nav-link'>
                     {strings.about}
                   </NavLink>
                 </li>
-                <li className="nav-item">
-                  <NavLink to="/digital-art" className="nav-link">
-                    {strings.digitalArt}
+                <li className='nav-item'>
+                  <NavLink to='/digital-art' className='nav-link'>
+                    {strings.digital}
                   </NavLink>
                 </li>
-                <li className="nav-item">
-                  <NavLink to="/traditional-art" className="nav-link">
-                    {strings.traditionalArt}
+                <li className='nav-item'>
+                  <NavLink to='/traditional-art' className='nav-link'>
+                    {strings.traditional}
                   </NavLink>
                 </li>
               </ul>
@@ -48,31 +48,31 @@ function App() {
           </div>
         </nav>
       </header>
-      <main role="main" className="flex-shrink-0">
-        <div className="container mt-4">
+      <main role='main' className='flex-shrink-0'>
+        <div className='container mt-4'>
           <Switch>
-            <Route path="/about">
+            <Route path='/about'>
               <About />
             </Route>
-            <Route path="/digital-art">
-              <Art type="digital" />
+            <Route path='/digital-art'>
+              <Art type='digital' />
             </Route>
-            <Route path="/traditional-art">
-              <Art type="traditional" />
+            <Route path='/traditional-art'>
+              <Art type='traditional' />
             </Route>
-            <Route path="/art-details/:slug">
+            <Route path='/art-details/:slug'>
               <ArtDetails />
             </Route>
-            <Route path="/">
+            <Route path='/'>
               <Home />
             </Route>
           </Switch>
         </div>
       </main>
       {strings.footer && (
-        <footer className="footer mt-auto py-3 bg-dark text-white text-center">
+        <footer className='footer mt-auto py-3 bg-dark text-white text-center'>
           {/* TODO: Social icons? */}
-          <div className="container"> {strings.footer}</div>
+          <div className='container'> {strings.footer}</div>
         </footer>
       )}
     </Router>

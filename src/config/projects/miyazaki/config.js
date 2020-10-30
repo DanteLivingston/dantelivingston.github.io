@@ -5,11 +5,11 @@ import smallOrangeImage from './images/small-orange-image.jpg';
 import smallRedImage from './images/small-red-image.png';
 
 const config = {
-  slug: 'template-example',
-  title: 'Template Sample',
-  shortDescription: 'Template Sample Description',
+  slug: 'miyazaki',
+  title: 'Hayao Miyazaki',
+  shortDescription: 'A Japanese Legend',
   description,
-  type: 'traditional',
+  type: 'inspiration',
   images: [
     {
       url: bigRedImage,

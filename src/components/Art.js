@@ -7,23 +7,19 @@ import strings from '../config/strings';
 function Art({ type }) {
   return (
     <>
-      <PageTitle>
-        {projects.type === 'traditional'
-          ? strings.traditionalArt
-          : strings.digitalArt}
-      </PageTitle>
-      <div className="row">
+      <PageTitle>{strings[type]}</PageTitle>
+      <div className='row'>
         {projects
           .filter((projects) => projects.type === type)
           .map((project) => {
             return (
-              <div className="col-sm-4 mb-4 text-center" key={project.slug}>
+              <div className='col-sm-4 mb-4 text-center' key={project.slug}>
                 <Link to={`/art-details/${project.slug}`}>
                   <img
                     alt={project.title}
                     title={project.title}
                     src={project.images[0].url}
-                    className="w-100 rounded thumbnail"
+                    className='w-100 rounded thumbnail'
                     style={{
                       objectFit: 'cover',
                       height: '200px',

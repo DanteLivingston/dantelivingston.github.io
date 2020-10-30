@@ -2,14 +2,15 @@ const strings = {
   about: 'About',
   aboutStatement: 'My name is Dante Livingston',
   danteLivingston: 'Dante Livingston',
-  digitalArt: 'Digital Art',
+  digital: 'Digital Art',
   footer: 'Dante Livingston Copyright © 2020',
   home: 'Home',
+  inspiration: 'Inspiration',
   socialGitHubUrl: 'https://www.github.com',
   socialRedditUrl: 'https://www.reddit.com',
   socialYouTubeUrl: 'https://www.youtube.com',
   socialLinkedInUrl: 'https://www.linkedin.com',
-  traditionalArt: 'Traditional Art',
+  traditional: 'Traditional Art',
 };
 
 export default strings;
