@@ -5,10 +5,10 @@ import smallOrangeImage from './images/small-orange-image.jpg';
 import smallRedImage from './images/small-red-image.png';
 
 const config = {
-  slug: 'template-example',
+  slug: 'digital-textures',
   title: 'Template Sample',
   description,
-  type: 'traditional',
+  type: 'digital',
   images: [
     {
       url: bigRedImage,
