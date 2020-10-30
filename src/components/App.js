@@ -4,6 +4,7 @@ import Art from './Art';
 import ArtDetails from './ArtDetails';
 import Home from './Home';
 import strings from '../config/strings';
+import { SocialIcon } from 'react-social-icons';
 
 function App() {
   return (
@@ -70,8 +71,20 @@ function App() {
       </main>
       {strings.footer && (
         <footer className='footer mt-auto py-3 bg-dark text-white text-center'>
-          {/* TODO: Social icons? */}
-          <div className='container'> {strings.footer}</div>
+          <div className='container'>
+            {strings.footer}
+            {strings.socialLinks.map((socialLink) => (
+              <SocialIcon
+                style={{ height: 35, width: 35 }}
+                className='ml-3'
+                network={socialLink.network}
+                rel='noopener noreferrer'
+                target='_blank'
+                title={socialLink.title}
+                url={socialLink.url}
+              />
+            ))}
+          </div>
         </footer>
       )}
     </Router>

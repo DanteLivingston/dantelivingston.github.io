@@ -6,6 +6,7 @@ import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 import LazyLoad from 'react-lazyload';
 import Image from './Image';
+import strings from '../config/strings';
 
 function ArtDetails() {
   let { slug } = useParams();
@@ -16,6 +17,11 @@ function ArtDetails() {
   return (
     <>
       <PageTitle>{project.title}</PageTitle>
+      {project.type === 'inspiration' && (
+        <blockquote className='blockquote'>
+          <small class='mb-0'>{strings.inspirationDisclaimer}</small>
+        </blockquote>
+      )}
       <div className='row'>
         <div className='col-4'>
           <blockquote dangerouslySetInnerHTML={{ __html: project.description }} />
