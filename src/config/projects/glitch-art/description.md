@@ -1,27 +1,10 @@
-# H1 Header
+This is a series of images that have been “glitched” through various programs in order to give them an abstract and technological feeling. These works were heavily inspired by **[Micheal Betancourt](https://michaelbetancourt.com/)**, who uses Glitch Art to emphasize the connections between media theory and practice. I wanted to create these as a way to showcase the idea of beauty in destruction, or beauty in chaos, specifically in a technological setting.
 
-## H2
-
-### H3
-
-I am **bold** text
-
-I am _italicized_ text
-
-> I am block quote
-
-1. first
-2. second
-3. third
-
-- first
-- second
-- third
-
-`i am code`
-
-Horizontal rule below
+The images were all created by importing image files into programs that do not traditionally accept them. Values were then changed and they were exported as images again to give me the glitch effect with some of the key programs used being Audacity and Premiere Pro. Having the images being visible through the glitches themselves was also intentional as a way to still illustrate the underlying, original product that I had then warped.
 
 ---
 
-Link to [Google](http://www.google.com)
+**Links to Programs Used:**
+
+- [Audacity](https://www.audacityteam.org/)
+- [Adobe Premiere Pro](https://www.adobe.com/products/premiere.html)
