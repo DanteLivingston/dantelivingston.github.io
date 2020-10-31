@@ -3,14 +3,13 @@ import description from './description';
 import bigRedImage from './images/big-red-image.jpg';
 import smallOrangeImage from './images/small-orange-image.jpg';
 import smallRedImage from './images/small-red-image.png';
-import audio from './audios/test.mp3';
 
 const config = {
-  slug: 'template-example',
-  title: 'Template Sample',
-  shortDescription: 'Template Sample Description',
+  slug: 'video-gallery',
+  title: 'Video Gallery',
+  shortDescription: 'Video Gallery Description',
   description,
-  type: 'traditional',
+  type: 'digital',
   splashImageUrl: smallOrangeImage,
   images: [
     {
@@ -32,13 +31,6 @@ const config = {
   videos: [
     {
       url: 'https://www.youtube.com/embed/rvO8PisxoFU',
-      title: 'My Amazing Video',
-      description: 'My Amazing Video Description',
-    },
-  ],
-  audios: [
-    {
-      url: audio,
       title: 'My Amazing Video',
       description: 'My Amazing Video Description',
     },

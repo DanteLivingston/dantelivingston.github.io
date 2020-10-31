@@ -7,6 +7,7 @@ import glitchArt from './glitch-art/config';
 import photoshopprojects from './photoshop-projects/config';
 import fakeproduct from './fake-product/config';
 import digitalPhotography from './digital-photography/config';
+import videoGallery from './video-gallery/config';
 
 const projects = [
   // Digital Art
@@ -15,6 +16,7 @@ const projects = [
   photoshopprojects,
   fakeproduct,
   digitalPhotography,
+  videoGallery,
   // Inspiration
   hayaoMiyazaki,
   aaronBlaise,
