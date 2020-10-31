@@ -14,11 +14,6 @@ const config = {
   splashImageUrl: corridorDigitalPFP,
   images: [
     {
-      url: corridorDigitalPFP,
-      title: 'Digital Lion Drawing by Aaron Blaise',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-    {
       url: corridorDigitalMadMax,
       title: 'Digital Lion Drawing by Aaron Blaise',
       description: 'lorem ipsum foobar magna vulputate',

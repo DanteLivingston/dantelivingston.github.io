@@ -14,11 +14,6 @@ const config = {
   splashImageUrl: hayaoMiyazakiPFP,
   images: [
     {
-      url: hayaoMiyazakiPFP,
-      title: 'Digital Lion Drawing by Aaron Blaise',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-    {
       url: hayaoMiyazakTotoro,
       title: 'Digital Lion Drawing by Aaron Blaise',
       description: 'lorem ipsum foobar magna vulputate',

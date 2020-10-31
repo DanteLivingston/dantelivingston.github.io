@@ -14,11 +14,6 @@ const config = {
   splashImageUrl: aaronBlaisePFP,
   images: [
     {
-      url: aaronBlaisePFP,
-      title: 'Digital Lion Drawing by Aaron Blaise',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-    {
       url: aaronBlaiseLion,
       title: 'Digital Lion Drawing by Aaron Blaise',
       description: 'lorem ipsum foobar magna vulputate',
