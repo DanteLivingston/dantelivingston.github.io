@@ -39,7 +39,7 @@ function ArtDetails() {
         <div className='col-8'>
           {project.images && (
             <>
-              <h2>Images</h2>
+              <h2 className='text-center'>{strings.images}</h2>
               <div className='row'>
                 {project?.images?.map((image, index) => (
                   <div
@@ -75,7 +75,7 @@ function ArtDetails() {
                   <div className='embed-responsive embed-responsive-16by9'>
                     <iframe
                       allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                      allowfullscreen
+                      allowFullScreen
                       className='embed-responsive-item'
                       clipboardWrite='encrypted-media'
                       frameborder='0'

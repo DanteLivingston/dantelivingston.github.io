@@ -13,7 +13,7 @@ function Image({
       alt={title}
       title={title}
       src={url}
-      className={`w-100 rounded shadow-md ${hasLink ? 'has-link' : ''} ${
+      className={`rounded shadow-md img-fluid w-100 ${hasLink ? 'has-link' : ''} ${
         className ? className : ''
       } ${isRounded ? 'rounded-circle px-4' : ''}`}
       onClick={onClick}
