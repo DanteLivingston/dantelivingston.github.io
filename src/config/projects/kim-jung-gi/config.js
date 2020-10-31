@@ -14,11 +14,6 @@ const config = {
   splashImageUrl: kimGiPFP,
   images: [
     {
-      url: kimGiPFP,
-      title: 'Digital Lion Drawing by Aaron Blaise',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-    {
       url: kimGiBrush,
       title: 'Digital Lion Drawing by Aaron Blaise',
       description: 'lorem ipsum foobar magna vulputate',

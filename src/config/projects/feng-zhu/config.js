@@ -14,11 +14,6 @@ const config = {
   splashImageUrl: fengZhuPFP,
   images: [
     {
-      url: fengZhuPFP,
-      title: 'Digital Lion Drawing by Aaron Blaise',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-    {
       url: fengZhuAlien,
       title: 'Digital Lion Drawing by Aaron Blaise',
       description: 'lorem ipsum foobar magna vulputate',
