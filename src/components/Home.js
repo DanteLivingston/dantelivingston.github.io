@@ -15,12 +15,13 @@ import Image from './Image';
 import digitalImage from '../config/projects/digital-textures/images/MossyRocks_3D.png';
 import traditionalImage from '../config/projects/template/images/big-red-image.jpg';
 import { CameraFill, EaselFill } from 'react-bootstrap-icons';
+import _shuffle from 'lodash.shuffle';
 
 function Home() {
   let history = useHistory();
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
-  const filteredProjects = projects?.filter(({ type }) => type !== 'inspiration') ?? [];
+  const filteredProjects = _shuffle(projects?.filter(({ type }) => type !== 'inspiration') ?? []);
 
   const next = () => {
     if (animating) return;
