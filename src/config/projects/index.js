@@ -24,7 +24,7 @@ import traditionalInk from './traditional-ink-drawing/config';
 import wireSculpture from './WireSculpture/config';
 
 //other
-import template from './template/config';
+//import template from './template/config';
 import tools from './tools/config';
 
 const projects = [
@@ -47,7 +47,7 @@ const projects = [
   kimJungGi,
   // Traditional Art
   minimalist,
-  template,
+  //template,
   plasticSculpture,
   traditionalInk,
   wireSculpture,

@@ -3,7 +3,8 @@ const strings = {
   danteLivingston: 'Dante Livingston',
   tools: 'Tools',
   digital: 'Digital Art',
-  digitalDescription: 'Showcase of my digital art projects',
+  digitalDescription:
+    'Showcase of my digital art projects including texture creation, photoshop projects and much more.',
   footer: `Dante Livingston Copyright © ${new Date().getFullYear()}`,
   home: 'Home',
   images: 'Images',
@@ -25,19 +26,20 @@ const strings = {
       title: 'GitHub',
       url: 'https://www.github.com/dantelivingston',
     },
-    {
-      network: 'youtube',
-      title: 'YouTube',
-      url: 'https://www.github.com/dantelivingston',
-    },
+    // {
+    //   network: 'youtube',
+    //   title: 'YouTube',
+    //   url: 'https://www.github.com/dantelivingston',
+    // },
     {
       network: 'linkedin',
       title: 'LinkedIn',
-      url: 'https://www.github.com/dantelivingston',
+      url: 'https://www.linkedin.com/in/dante-livingston/',
     },
   ],
   traditional: 'Traditional Art',
-  traditionalDescription: 'Showcase of my traditional art projects',
+  traditionalDescription:
+    'Showcase of my traditional art projects including ink drawings, sculpture and much more.',
 };
 
 export default strings;
