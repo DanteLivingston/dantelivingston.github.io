@@ -1,13 +1,14 @@
 import { HashRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
-import About from './About';
-import Art from './Art';
-import ArtDetails from './ArtDetails';
-import Home from './Home';
 import strings from '../config/strings';
 import { SocialIcon } from 'react-social-icons';
-import { useState } from 'react';
+import { lazy, Suspense, useState } from 'react';
 import { CameraFill, EaselFill, HouseFill, PersonFill, GearFill } from 'react-bootstrap-icons';
-import NotFound from './NotFound';
+
+const About = lazy(() => import('./About'));
+const Art = lazy(() => import('./Art'));
+const ArtDetails = lazy(() => import('./ArtDetails'));
+const Home = lazy(() => import('./Home'));
+const NotFound = lazy(() => import('./NotFound'));
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -81,26 +82,28 @@ function App() {
       </header>
       <main role='main' className='flex-shrink-0 mb-5'>
         <div className='container mt-4'>
-          <Switch>
-            <Route path='/about'>
-              <About />
-            </Route>
-            <Route path='/digital-art'>
-              <Art type='digital' />
-            </Route>
-            <Route path='/traditional-art'>
-              <Art type='traditional' />
-            </Route>
-            <Route path='/art-details/:slug'>
-              <ArtDetails />
-            </Route>
-            <Route exact path='/'>
-              <Home />
-            </Route>
-            <Route>
-              <NotFound is404={true} />
-            </Route>
-          </Switch>
+          <Suspense fallback={null}>
+            <Switch>
+              <Route path='/about'>
+                <About />
+              </Route>
+              <Route path='/digital-art'>
+                <Art type='digital' />
+              </Route>
+              <Route path='/traditional-art'>
+                <Art type='traditional' />
+              </Route>
+              <Route path='/art-details/:slug'>
+                <ArtDetails />
+              </Route>
+              <Route exact path='/'>
+                <Home />
+              </Route>
+              <Route>
+                <NotFound is404={true} />
+              </Route>
+            </Switch>
+          </Suspense>
         </div>
       </main>
       {strings.footer && (
