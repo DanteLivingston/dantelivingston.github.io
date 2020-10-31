@@ -7,17 +7,22 @@ import 'react-image-lightbox/style.css';
 import LazyLoad from 'react-lazyload';
 import Image from './Image';
 import strings from '../config/strings';
+import { useHistory } from 'react-router-dom';
 
 function ArtDetails() {
   let { slug } = useParams();
+  let history = useHistory();
+
   const project = projects.find((project) => project.slug === slug);
+  if (!project) {
+    history.push('/not-found');
+  }
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [imageIndex, setImageIndex] = useState(0);
-  const imageLength = project.images.length;
-  return (
+  const imageLength = project?.images?.length;
+  return project ? (
     <>
       <PageTitle>{project.title}</PageTitle>
-
       <div className='row'>
         <div className='col-4'>
           <blockquote dangerouslySetInnerHTML={{ __html: project.description }} />
@@ -106,7 +111,7 @@ function ArtDetails() {
         />
       )}
     </>
-  );
+  ) : null;
 }
 
 export default ArtDetails;
