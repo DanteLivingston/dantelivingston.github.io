@@ -6,6 +6,7 @@ const strings = {
   digitalDescription: 'Showcase of my digital art projects',
   footer: `Dante Livingston Copyright © ${new Date().getFullYear()}`,
   home: 'Home',
+  images: 'Images',
   inspiration: 'Inspiration',
   inspirationDisclaimer: 'Note: All inspiration art was designed by the respective artists.',
   errorTitle: 'Oops!',

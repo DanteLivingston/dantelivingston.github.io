@@ -44,3 +44,40 @@ hr {
   filter: grayscale(90%);
   cursor: pointer;
 }
+
+.carousel-control {
+  position: absolute;
+  top: 45%;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: auto;
+  color: #fff;
+  text-align: center;
+  opacity: 1;
+  text-shadow: none;
+}
+.carousel-control:hover {
+  color: #000;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.ril__captionContent {
+  margin: 0 auto;
+}
+
+.ril__caption {
+  bottom: 100px !important;
+}
