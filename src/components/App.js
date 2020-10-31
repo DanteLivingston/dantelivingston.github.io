@@ -63,7 +63,7 @@ function App() {
           </div>
         </nav>
       </header>
-      <main role='main' className='flex-shrink-0'>
+      <main role='main' className='flex-shrink-0 mb-5'>
         <div className='container mt-4'>
           <Switch>
             <Route path='/about'>
