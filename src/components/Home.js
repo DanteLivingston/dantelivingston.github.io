@@ -80,7 +80,7 @@ function Home() {
       </Carousel>
       <hr className='border-secondary my-4' />
       <div className='row'>
-        <div className='col-sm-6'>
+        <div className='col-6'>
           <div className='card'>
             <Image
               className='card-img-top'
@@ -98,7 +98,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className='col-sm-6'>
+        <div className='col-6'>
           <div className='card'>
             <Image
               className='card-img-top'

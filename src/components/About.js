@@ -21,12 +21,12 @@ function About() {
       </div>
       <hr className='border-secondary my-4' />
       <div className='row'>
-        <div className='col-sm-2'></div>
+        <div className='col-2'></div>
         {strings.socialLinks.map((socialLink) => (
-          <div className='col-sm-2 text-center'>
+          <div className='col-2 text-center' key={socialLink.network}>
             <SocialIcon
               style={{ height: 50, width: 50 }}
-              className='ml-3'
+              className='ml-3 has-link-svg'
               network={socialLink.network}
               rel='noopener noreferrer'
               target='_blank'
@@ -35,7 +35,7 @@ function About() {
             />
           </div>
         ))}
-        <div className='col-sm-2'></div>
+        <div className='col-2'></div>
       </div>
       <hr />
       <blockquote className='blockquote'>

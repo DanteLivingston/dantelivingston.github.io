@@ -13,7 +13,7 @@ function Art({ type }) {
           .filter((projects) => projects.type === type)
           .map((project) => {
             return (
-              <div className='col-sm-4 mb-4 text-center' key={project.slug}>
+              <div className='col-4 mb-4 text-center' key={project.slug}>
                 <Link to={`/art-details/${project.slug}`}>
                   <Image
                     hasLink={true}

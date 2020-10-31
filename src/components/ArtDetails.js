@@ -30,7 +30,7 @@ function ArtDetails() {
           <div className='row'>
             {project.images.map((image, index) => (
               <div
-                className='col-sm-4 cursor-pointer'
+                className='col-4 cursor-pointer'
                 key={index}
                 onClick={() => {
                   setImageIndex(index);
