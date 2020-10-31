@@ -5,41 +5,56 @@ import ArtDetails from './ArtDetails';
 import Home from './Home';
 import strings from '../config/strings';
 import { SocialIcon } from 'react-social-icons';
+import { useState } from 'react';
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <Router>
       <header>
         <nav className='navbar navbar-expand-lg navbar-dark fixed-top bg-dark'>
           <div className='container'>
-            <a className='navbar-brand' href='/'>
+            <NavLink className='navbar-brand' to='/' onClick={() => setIsMenuOpen(!isMenuOpen)}>
               {strings.danteLivingston}
-            </a>
+            </NavLink>
             <button
-              className='navbar-toggler'
+              className={`navbar-toggler ${isMenuOpen ? '' : 'collapsed'}`}
               type='button'
-              data-toggle='collapse'
-              data-target='#navbarCollapse'
-              aria-controls='navbarCollapse'
               aria-expanded='false'
               aria-label='Toggle navigation'
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <span className='navbar-toggler-icon' />
             </button>
-            <div className='collapse navbar-collapse' id='navbarCollapse'>
+            <div
+              className={`navbar-collapse collapse ${isMenuOpen ? 'show' : ''}`}
+              id='navbarCollapse'
+            >
               <ul className='navbar-nav mr-auto'>
                 <li className='nav-item'>
-                  <NavLink to='/about' className='nav-link'>
+                  <NavLink
+                    to='/about'
+                    className='nav-link'
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                  >
                     {strings.about}
                   </NavLink>
                 </li>
                 <li className='nav-item'>
-                  <NavLink to='/digital-art' className='nav-link'>
+                  <NavLink
+                    to='/digital-art'
+                    className='nav-link'
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                  >
                     {strings.digital}
                   </NavLink>
                 </li>
                 <li className='nav-item'>
-                  <NavLink to='/traditional-art' className='nav-link'>
+                  <NavLink
+                    to='/traditional-art'
+                    className='nav-link'
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                  >
                     {strings.traditional}
                   </NavLink>
                 </li>
