@@ -31,7 +31,7 @@ hr {
 }
 
 .has-link:hover {
-  filter: grayscale(70%);
+  filter: grayscale(90%);
   cursor: pointer;
   border: 1px solid #444;
 }

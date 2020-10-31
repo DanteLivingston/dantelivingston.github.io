@@ -41,7 +41,7 @@ function About() {
       <blockquote className='blockquote'>
         <small class='mb-0'>{strings.inspirationDisclaimer}</small>
       </blockquote>
-      <Art type='inspiration' />
+      <Art type='inspiration' isRounded={true} />
     </>
   );
 }

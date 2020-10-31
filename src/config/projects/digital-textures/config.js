@@ -21,6 +21,7 @@ const config = {
   shortDescription: 'test',
   description,
   type: 'digital',
+  splashImageUrl: JungleFloorTiles_3D,
   images: [
     {
       url: CorrugatedRoof_3D,

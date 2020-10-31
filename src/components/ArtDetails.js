@@ -46,7 +46,7 @@ function ArtDetails() {
                     url={image.url}
                   />
                 </LazyLoad>
-                {image.title}
+                <h3 className='h5 mt-2 text-center'>{image.title}</h3>
               </div>
             ))}
           </div>

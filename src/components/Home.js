@@ -12,16 +12,14 @@ import PageTitle from './PageTitle';
 import strings from '../config/strings';
 import { useHistory } from 'react-router-dom';
 import Image from './Image';
+import digitalImage from '../config/projects/digital-textures/images/MossyRocks_3D.png';
+import traditionalImage from '../config/projects/template/images/big-red-image.jpg';
 
 function Home() {
   let history = useHistory();
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
   const filteredProjects = projects.filter(({ type }) => type !== 'inspiration');
-
-  const firstDigitalImage = filteredProjects.find(({ type }) => type === 'digital').images[0];
-  const firstTraditionalImage = filteredProjects.find(({ type }) => type === 'traditional')
-    .images[0];
 
   const next = () => {
     if (animating) return;
@@ -52,7 +50,6 @@ function Home() {
         {filteredProjects
           .filter(({ type }) => type !== 'inspiration')
           .map((project) => {
-            const firstImage = filteredProjects[0].images[0];
             return (
               <CarouselItem
                 onExiting={() => setAnimating(true)}
@@ -62,15 +59,15 @@ function Home() {
                 <Link to={`/art-details/${project.slug}`}>
                   <Image
                     hasLink={true}
-                    url={firstImage.url}
-                    title={firstImage.title}
+                    url={project.splashImageUrl || project.images[0].url}
+                    title={project.title}
                     height='400'
                     keepAspectRatio={true}
                   />
                 </Link>
                 <CarouselCaption
                   captionHeader={project.title}
-                  captionText={project.shortDescription}
+                  captionText={project.shortDescription ?? ''}
                 />
               </CarouselItem>
             );
@@ -87,8 +84,8 @@ function Home() {
               hasLink={true}
               keepAspectRatio={true}
               onClick={() => history.push('digital-art')}
-              title={firstDigitalImage.title}
-              url={firstDigitalImage.url}
+              title={strings.digitalDescription}
+              url={digitalImage}
             />
             <div className='card-body'>
               <h5 className='card-title'>
@@ -105,8 +102,8 @@ function Home() {
               hasLink={true}
               keepAspectRatio={true}
               onClick={() => history.push('traditional-art')}
-              title={firstTraditionalImage.title}
-              url={firstTraditionalImage.url}
+              title={strings.traditionalDescription}
+              url={traditionalImage}
             />
             <div className='card-body'>
               <h5 className='card-title'>
