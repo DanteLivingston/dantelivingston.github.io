@@ -1,9 +1,9 @@
 import description from './description';
 
-import jeanMoebiusPFP from './images/JeanGiraud_PFP.jpg';
-import jeanMoebiusCharacter from './images/JeanGiraud_Work_01.jpg';
-import jeanMoebiusLandscape from './images/JeanGiraud_Work_02.jpg';
-import jeanMoebiusDesert from './images/JeanGiraud_Work_03.jpg';
+import jeanMoebiusPFP from './images/min/JeanGiraud_PFP.jpg';
+import jeanMoebiusCharacter from './images/min/JeanGiraud_Work_01.jpg';
+import jeanMoebiusLandscape from './images/min/JeanGiraud_Work_02.jpg';
+import jeanMoebiusDesert from './images/min/JeanGiraud_Work_03.jpg';
 
 const config = {
   slug: 'jean-giraud',

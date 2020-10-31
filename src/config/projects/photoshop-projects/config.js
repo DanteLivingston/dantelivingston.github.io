@@ -1,7 +1,7 @@
 import description from './description';
 
-import MiniatureEffect from './images/miniature.png';
-import SnowyMountain from './images/snowmountain.jpeg';
+import MiniatureEffect from './images/min/miniature.png';
+import SnowyMountain from './images/min/snowmountain.jpeg';
 
 const config = {
   slug: 'photoshop-projects',

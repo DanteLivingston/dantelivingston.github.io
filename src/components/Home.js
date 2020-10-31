@@ -14,6 +14,7 @@ import { useHistory } from 'react-router-dom';
 import Image from './Image';
 import digitalImage from '../config/projects/digital-textures/images/MossyRocks_3D.png';
 import traditionalImage from '../config/projects/template/images/big-red-image.jpg';
+import { CameraFill, EaselFill } from 'react-bootstrap-icons';
 
 function Home() {
   let history = useHistory();
@@ -89,7 +90,10 @@ function Home() {
             />
             <div className='card-body'>
               <h5 className='card-title'>
-                <Link to='/digital-art'>{strings.digital}</Link>
+                <Link to='/digital-art'>
+                  <CameraFill style={{ marginTop: '-5px' }} className='mr-2' />
+                  {strings.digital}
+                </Link>
               </h5>
               <p className='card-text'>{strings.digitalDescription}</p>
             </div>
@@ -107,7 +111,10 @@ function Home() {
             />
             <div className='card-body'>
               <h5 className='card-title'>
-                <Link to='/traditional-art'>{strings.traditional}</Link>
+                <Link to='/traditional-art'>
+                  <EaselFill style={{ marginTop: '-5px' }} className='mr-2' />
+                  {strings.traditional}
+                </Link>
               </h5>
               <p className='card-text'>{strings.traditionalDescription}</p>
             </div>

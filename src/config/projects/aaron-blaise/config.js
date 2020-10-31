@@ -1,9 +1,9 @@
 import description from './description';
 
-import aaronBlaisePFP from './images/AaronBlaise_PFP.jpg';
-import aaronBlaiseLion from './images/AaronBlaise_Work_01.jpg';
-import aaronBlaiseLionCartoon from './images/AaronBlaise_Work_02.jpg';
-import aaronBlaiseEagle from './images/AaronBlaise_Work_03.jpg';
+import aaronBlaisePFP from './images/min/AaronBlaise_PFP.jpg';
+import aaronBlaiseLion from './images/min/AaronBlaise_Work_01.jpg';
+import aaronBlaiseLionCartoon from './images/min/AaronBlaise_Work_02.jpg';
+import aaronBlaiseEagle from './images/min/AaronBlaise_Work_03.jpg';
 
 const config = {
   slug: 'aaron-blaise',

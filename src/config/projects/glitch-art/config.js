@@ -1,8 +1,8 @@
 import description from './description';
 
-import DogGlitchArt from './images/Dog_GlitchArt.PNG';
-import EverestGlitchArt from './images/Everest_GlitchArt.jpg';
-import ForestGlitchArt from './images/Forest_GlitchArt.jpg';
+import DogGlitchArt from './images/min/Dog_GlitchArt.PNG';
+import EverestGlitchArt from './images/min/Everest_GlitchArt.jpg';
+import ForestGlitchArt from './images/min/Forest_GlitchArt.jpg';
 
 const config = {
   slug: 'glitch-art',
