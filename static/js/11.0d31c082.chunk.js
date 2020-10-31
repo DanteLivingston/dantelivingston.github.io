@@ -1,0 +1,2 @@
+(this["webpackJsonpdante-livingston"]=this["webpackJsonpdante-livingston"]||[]).push([[11],{91:function(e,r,t){"use strict";t.r(r);var n=t(1),s=t(9),i=t(8);r.default=function(e){var r=e.is404;return Object(n.jsxs)("div",{className:"text-center",children:[Object(n.jsx)("div",{className:"display-1",children:i.a.errorTitle}),Object(n.jsx)("h1",{children:r?i.a.errorNotFound:i.a.errorGeneric}),Object(n.jsx)(s.b,{to:"/",children:i.a.errorGoHome})]})}}}]);
+//# sourceMappingURL=11.0d31c082.chunk.js.map
