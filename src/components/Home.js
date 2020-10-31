@@ -21,7 +21,9 @@ function Home() {
   let history = useHistory();
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
-  const filteredProjects = _shuffle(projects?.filter(({ type }) => type !== 'inspiration') ?? []);
+  const filteredProjects = _shuffle(
+    projects?.filter(({ type }) => type !== 'inspiration' && type !== 'tools') ?? []
+  );
 
   const next = () => {
     if (animating) return;
@@ -52,6 +54,7 @@ function Home() {
         {filteredProjects
           ?.filter(({ type }) => type !== 'inspiration')
           ?.map((project) => {
+            console.log(project);
             return (
               <CarouselItem
                 onExiting={() => setAnimating(true)}

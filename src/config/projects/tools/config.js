@@ -9,7 +9,7 @@ const config = {
   title: 'Tools',
   shortDescription: 'These are some of my favorite tools',
   description,
-  type: 'traditional',
+  type: 'tools',
   splashImageUrl: smallOrangeImage,
   images: [
     {
