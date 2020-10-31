@@ -6,6 +6,7 @@ import Home from './Home';
 import strings from '../config/strings';
 import { SocialIcon } from 'react-social-icons';
 import { useState } from 'react';
+import { CameraFill, EaselFill, HouseFill, PersonFill, GearFill } from 'react-bootstrap-icons';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,6 +16,7 @@ function App() {
         <nav className='navbar navbar-expand-lg navbar-dark fixed-top bg-dark'>
           <div className='container'>
             <NavLink className='navbar-brand' to='/' onClick={() => setIsMenuOpen(!isMenuOpen)}>
+              <HouseFill style={{ marginTop: '-5px' }} className='mr-2' />
               {strings.danteLivingston}
             </NavLink>
             <button
@@ -30,13 +32,14 @@ function App() {
               className={`navbar-collapse collapse ${isMenuOpen ? 'show' : ''}`}
               id='navbarCollapse'
             >
-              <ul className='navbar-nav mr-auto'>
+              <ul className='navbar-nav ml-auto'>
                 <li className='nav-item'>
                   <NavLink
                     to='/about'
                     className='nav-link'
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                   >
+                    <PersonFill style={{ marginTop: '-5px' }} className='mr-2' />
                     {strings.about}
                   </NavLink>
                 </li>
@@ -46,6 +49,7 @@ function App() {
                     className='nav-link'
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                   >
+                    <CameraFill style={{ marginTop: '-5px' }} className='mr-2' />
                     {strings.digital}
                   </NavLink>
                 </li>
@@ -55,7 +59,18 @@ function App() {
                     className='nav-link'
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                   >
+                    <EaselFill style={{ marginTop: '-5px' }} className='mr-2' />
                     {strings.traditional}
+                  </NavLink>
+                </li>
+                <li className='nav-item'>
+                  <NavLink
+                    to='/art-details/tools'
+                    className='nav-link'
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                  >
+                    <GearFill style={{ marginTop: '-5px' }} className='mr-2' />
+                    {strings.tools}
                   </NavLink>
                 </li>
               </ul>

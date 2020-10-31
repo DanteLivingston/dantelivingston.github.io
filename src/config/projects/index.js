@@ -8,6 +8,7 @@ import photoshopprojects from './photoshop-projects/config';
 import fakeproduct from './fake-product/config';
 import digitalPhotography from './digital-photography/config';
 import videoGallery from './video-gallery/config';
+import tools from './tools/config';
 
 const projects = [
   // Digital Art
@@ -23,6 +24,8 @@ const projects = [
   corridorDigital,
   // Traditional Art
   template,
+  // Other
+  tools,
 ];
 
 export default projects;

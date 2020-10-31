@@ -12,8 +12,6 @@ function Art({ isRounded, type }) {
         {projects
           .filter((projects) => projects.type === type)
           .map((project) => {
-            console.log(project);
-
             return (
               <div className='col-4 mb-4 text-center' key={project.slug}>
                 <Link to={`/art-details/${project.slug}`}>
