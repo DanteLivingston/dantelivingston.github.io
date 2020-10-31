@@ -1,4 +1,4 @@
-const description = `<p>These are a few of the miscellaneous projects I have completed with <strong><a href="https://www.adobe.com/products/photoshop.html">Adobe Photshop</a></strong>. With Photoshop being such a universal tool, these are two of my older works which each utilize different skill sets within Photoshop as a whole.</p>
+const description = `<p>These are a few of the miscellaneous projects I have completed with <strong><a rel='noopener noreferrer' target='_blank' href="https://www.adobe.com/products/photoshop.html">Adobe Photshop</a></strong>. With Photoshop being such a universal tool, these are two of my older works which each utilize different skill sets within Photoshop as a whole.</p>
 
 <p>The first is an image that has been made to look like a “miniature” diorama would. This effect is mainly dependent on the high depth of field and blur to give off a different perspective than the image had originally. Color adjustments were also made in order to sell the miniature vibe as many dioramas of cityscapes have much more vibrant painterly colors than they would in real life. </p>
 
@@ -6,5 +6,5 @@ const description = `<p>These are a few of the miscellaneous projects I have com
 
 <hr/>
 
-<p>Link to <a href="https://www.adobe.com/products/photoshop.html">Adobe Photshop</a></p>`
+<p>Link to <a rel='noopener noreferrer' target='_blank' href="https://www.adobe.com/products/photoshop.html">Adobe Photshop</a></p>`
 export default description
