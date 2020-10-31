@@ -17,11 +17,7 @@ function ArtDetails() {
   return (
     <>
       <PageTitle>{project.title}</PageTitle>
-      {project.type === 'inspiration' && (
-        <blockquote className='blockquote'>
-          <small class='mb-0'>{strings.inspirationDisclaimer}</small>
-        </blockquote>
-      )}
+
       <div className='row'>
         <div className='col-4'>
           <blockquote dangerouslySetInnerHTML={{ __html: project.description }} />
@@ -91,6 +87,12 @@ function ArtDetails() {
           )}
         </div>
       </div>
+      {project.type === 'inspiration' && (
+        <blockquote className='blockquote text-center mt-3'>
+          <br />
+          <strong className='mt-3 mb-0'>{strings.inspirationDisclaimer}</strong>
+        </blockquote>
+      )}
       {isModalOpen && (
         <Lightbox
           imageTitle={project.images[imageIndex].title}

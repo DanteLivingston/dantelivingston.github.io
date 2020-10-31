@@ -7,6 +7,7 @@ import crestAd from './images/crestadd.jpeg';
 const config = {
   slug: 'fake-crest-product',
   title: 'Creating a Crest Product in Photoshop',
+  shortDescription: 'A redesign of the Crest box as well as a new product.',
   description,
   type: 'digital',
   images: [

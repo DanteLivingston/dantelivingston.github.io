@@ -1,27 +1,11 @@
-# H1 Header
-
-## H2
-
-### H3
-
-I am **bold** text
-
-I am _italicized_ text
-
-> I am block quote
-
-1. first
-2. second
-3. third
-
-- first
-- second
-- third
-
-`i am code`
-
-Horizontal rule below
+Corridor Digital is a group of artists who create narrative and non-narrative skits on Youtube. They have been on the platform for nearly a decade and I have been watching them for almost as long. In more recent times, their use of photoreal VFX and sophisticated editing rivals movie production companies which has always impressed me. I have always been inspired by their work ethic and tenacity in being able to stay at the top of a very turbulent platform for most of their careers.
 
 ---
 
-Link to [Google](http://www.google.com)
+- [Corridor Digital's Website](https://www.corridordigital.com/join)
+
+- [Corridor Digital's Youtube Channel](https://www.youtube.com/user/CorridorDigital)
+
+- [Corridor Digital's Instagram](https://www.instagram.com/corridordigital/?hl=en)
+
+- [Corridor Digital's Twitter](https://twitter.com/CorridorDigital)

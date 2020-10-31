@@ -1,22 +1,6 @@
-const description = `<h1>H1 Header</h1>
-
-<h2>H2</h2>
-
-<h3>H3</h3>
-
-<p>I am <strong>bold</strong> text</p>
-
-<p>I am <em>italicized</em> text</p>
-
-<blockquote><p>I am block quote</p></blockquote>
-
-<ol><li>first</li><li>second</li><li><p>third</p></li><li><p>first</p></li><li>second</li><li>third</li></ol>
-
-<p><code>i am code</code></p>
-
-<p>Horizontal rule below</p>
+const description = `<p>This project was my first time working with video ever, let alone editing software. It was made originally for my Art 75 class as our introduction to using <strong><a rel='noopener noreferrer' target='_blank' href="https://www.adobe.com/products/premiere.html">Adobe Premiere Pro</a></strong> as a way to test our skills after learning the basics of the software. I found this project actually very fun compared to what I imagined editing to be like and since then it’s pushed me towards creating more video based art instead of just going through other mediums. The editing allowed me to creatively take a walk through my house in an abstract way which was meant to somewhat confuse the audience’s sense of direction despite the architecture being very simple. I felt that especially for my first video project, this was a successful piece both in terms of the video’s outcome and the things I have gained from it.</p>
 
 <hr/>
 
-<p>Link to <a rel='noopener noreferrer' target='_blank' href="http://www.google.com">Google</a></p>`
+<p>Link to <a rel='noopener noreferrer' target='_blank' href="https://www.adobe.com/products/premiere.html">Premiere Pro</a></p>`
 export default description

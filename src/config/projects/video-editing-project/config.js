@@ -1,30 +1,27 @@
 import description from './description';
 
-import bigRedImage from './images/big-red-image.jpg';
 import smallOrangeImage from './images/small-orange-image.jpg';
-import smallRedImage from './images/small-red-image.png';
 
 const config = {
-  slug: 'template-example',
-  title: 'Template Sample',
-  shortDescription: 'test',
+  slug: 'video-editing-project',
+  title: 'Walking Through my Home',
+  shortDescription: 'A project from my Art 75 class focussing on learning Video Editing.',
   description,
-  type: 'traditional',
+  type: 'digital',
+  splashimageurl: smallOrangeImage,
   images: [
     {
-      url: bigRedImage,
+      url: smallOrangeImage,
       title: 'magna vulputate',
       description: 'lorem ipsum foobar magna vulputate',
     },
+  ],
+  videos: [
     {
-      url: smallOrangeImage,
-      title: 'ridiculus mus',
-      description: 'lorem ipsum foobar ridiculus mus',
-    },
-    {
-      url: smallRedImage,
-      title: 'quisque ut',
-      description: 'lorem ipsum foobar quisque ut',
+      url: 'https://www.youtube.com/embed/Cw3HNFUMcss',
+      title: 'Art 75 Permiere Pro Editing Project',
+      description:
+        'My first project using Adobe Premiere Pro for my Art 75 class. This showcases some of the earliest things I have learned in regards to making interesting transitions and editing as a whole.',
     },
   ],
 };

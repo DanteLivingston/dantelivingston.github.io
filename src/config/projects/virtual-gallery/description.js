@@ -1,22 +1,6 @@
-const description = `<h1>H1 Header</h1>
-
-<h2>H2</h2>
-
-<h3>H3</h3>
-
-<p>I am <strong>bold</strong> text</p>
-
-<p>I am <em>italicized</em> text</p>
-
-<blockquote><p>I am block quote</p></blockquote>
-
-<ol><li>first</li><li>second</li><li><p>third</p></li><li><p>first</p></li><li>second</li><li>third</li></ol>
-
-<p><code>i am code</code></p>
-
-<p>Horizontal rule below</p>
+const description = `<p>This virtual gallery was originally made in 2018 as a way to learn the software <strong><a rel='noopener noreferrer' target='_blank' href="https://www.sketchup.com/">SketchUp</a></strong> and as a way to showcase my Pixel Art in the class, Art 74. While originally this piece did not have a huge amount of meaning for me other than as a learning tool, I find my stance changed now. After being quarantined to the point that I rarely go out with friends and family, going to something like a gallery is out of the question. With that in mind, I’ve found the concept of virtual galleries more and more interesting as a way to capture the traditional experience of showing off art in a wholly digital format. For the creation of the gallery, Sketch-Up was the perfect tool as a lightweight 3D modeler with free use textures and human models for scale. The pixel art was created in Sketch-Up as well and was meant to be in an Andy Warhol esque style in regards to the colors and how it was presented.</p>
 
 <hr/>
 
-<p>Link to <a rel='noopener noreferrer' target='_blank' href="http://www.google.com">Google</a></p>`
+<p>Link to <a rel='noopener noreferrer' target='_blank' href="https://www.sketchup.com/">SketchUp</a></p>`
 export default description

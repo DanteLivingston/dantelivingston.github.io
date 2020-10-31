@@ -21,8 +21,9 @@ import nightShot from './images/Livingston_VisceralPrint-6812.jpg';
 
 const config = {
   slug: 'digital-photography',
-  title: 'Digital Black and White Photography',
-  shortDescription: 'test',
+  title: 'Digital Black and White Photography.',
+  shortDescription:
+    'Digital Black and White photography I have done mostly consisting of nature and landscape pictures.',
   description,
   type: 'digital',
   images: [

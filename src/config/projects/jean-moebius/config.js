@@ -8,25 +8,29 @@ import jeanMoebiusDesert from './images/JeanGiraud_Work_03.jpg';
 const config = {
   slug: 'jean-giraud',
   title: 'Jean Giraud "Moebius"',
-  shortDescription: 'Template Sample Description',
+  shortDescription:
+    'A French surrealist comic who has worked with Stan Lee and insipired Hayao Miyazaki.',
   description,
   type: 'inspiration',
   splashImageUrl: jeanMoebiusPFP,
   images: [
     {
       url: jeanMoebiusCharacter,
-      title: 'Digital Lion Drawing by Aaron Blaise',
-      description: 'lorem ipsum foobar magna vulputate',
+      title: 'Starwatcher Holding a Crystal',
+      description:
+        'Some of Moebius’ character art that shows his ability to go from blank shapes to areas of very high detail. His use of color always impresses me and it is no exception here.',
     },
     {
       url: jeanMoebiusLandscape,
-      title: 'Digital Lion Caricature by Aaron Blaise',
-      description: 'lorem ipsum foobar ridiculus mus',
+      title: 'A surrealist landscape by Moebius',
+      description:
+        'This is some environment art done by Moebius that again expresses his ability to create beautiful line art. The color also emphasizes the line work instead of just taking place over it due to his “comic book” style.',
     },
     {
       url: jeanMoebiusDesert,
-      title: 'Digital Eagle Drawing by Aaron Blaise',
-      description: 'lorem ipsum foobar quisque ut',
+      title: 'A Drawing from "20 Days in the Desert"',
+      description:
+        'This is one of my favourite pieces done by Moebius. The insane detail coupled with a stark, empty background is perfectly representative of his style.',
     },
   ],
 };

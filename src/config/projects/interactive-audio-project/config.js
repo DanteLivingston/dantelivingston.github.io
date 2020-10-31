@@ -1,30 +1,28 @@
 import description from './description';
 
-import bigRedImage from './images/big-red-image.jpg';
-import smallOrangeImage from './images/small-orange-image.jpg';
-import smallRedImage from './images/small-red-image.png';
+import audioForm from './images/AudioForm.jpg';
+import audioProject from './audios/Art110SoundProj_mixdown.mp3';
 
 const config = {
-  slug: 'template-example',
-  title: 'Template Sample',
-  shortDescription: 'test',
+  slug: 'interactive-audio-project',
+  title: 'Sounds of Work',
+  shortDescription: 'A project where you listen to audio while filling out a form.',
   description,
-  type: 'traditional',
+  type: 'digital',
+  splashImageUrl: audioForm,
   images: [
     {
-      url: bigRedImage,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
+      url: audioForm,
+      title: 'Corrugated Roof Texture (3D)',
+      description: '3D texture of a Corrugated Roof Material | Made 2019',
     },
+  ],
+  audios: [
     {
-      url: smallOrangeImage,
-      title: 'ridiculus mus',
-      description: 'lorem ipsum foobar ridiculus mus',
-    },
-    {
-      url: smallRedImage,
-      title: 'quisque ut',
-      description: 'lorem ipsum foobar quisque ut',
+      url: audioProject,
+      title: 'Sounds of Work',
+      description:
+        'This is the audio section of my "Sounds of Work" project. You should listen to this while filling out the google form for the best and intentded experience.',
     },
   ],
 };

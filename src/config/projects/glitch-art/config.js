@@ -7,7 +7,7 @@ import ForestGlitchArt from './images/Forest_GlitchArt.jpg';
 const config = {
   slug: 'glitch-art',
   title: 'Glitch Art',
-  shortDescription: 'test',
+  shortDescription: 'Glitch Art inspired originally by Micheal Betancourt.',
   description,
   type: 'digital',
   images: [

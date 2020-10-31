@@ -1,22 +1,6 @@
-const description = `<h1>H1 Header</h1>
-
-<h2>H2</h2>
-
-<h3>H3</h3>
-
-<p>I am <strong>bold</strong> text</p>
-
-<p>I am <em>italicized</em> text</p>
-
-<blockquote><p>I am block quote</p></blockquote>
-
-<ol><li>first</li><li>second</li><li><p>third</p></li><li><p>first</p></li><li>second</li><li>third</li></ol>
-
-<p><code>i am code</code></p>
-
-<p>Horizontal rule below</p>
+const description = `<p>Jean Giraud “Moebius” is a french comic artist who has worked with Stan Lee and inspired Hayao Miyazaki. His surrealist style and ability to express detail through a small use of lines sets him apart from many of his contemporaries. I have always appreciated Moebius’ art and his creativity in design is something I will always be seeking to learn from. Although he died in 2012, Moebius&#39; work will be inspiring artists for years to come and still has a profound effect on many abstract and surrealist works.</p>
 
 <hr/>
 
-<p>Link to <a rel='noopener noreferrer' target='_blank' href="http://www.google.com">Google</a></p>`
+<ul><li><p><a rel='noopener noreferrer' target='_blank' href="https://www.facebook.com/JeanGiraudArt/">Jean Giraud Moebius&#39; Facebook</a></p></li><li><p><a rel='noopener noreferrer' target='_blank' href="https://www.iamag.co/the-art-of-moebius/">The Art of Moebius</a></p></li></ul>`
 export default description

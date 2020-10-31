@@ -1,27 +1,7 @@
-# H1 Header
-
-## H2
-
-### H3
-
-I am **bold** text
-
-I am _italicized_ text
-
-> I am block quote
-
-1. first
-2. second
-3. third
-
-- first
-- second
-- third
-
-`i am code`
-
-Horizontal rule below
+Jean Giraud “Moebius” is a french comic artist who has worked with Stan Lee and inspired Hayao Miyazaki. His surrealist style and ability to express detail through a small use of lines sets him apart from many of his contemporaries. I have always appreciated Moebius’ art and his creativity in design is something I will always be seeking to learn from. Although he died in 2012, Moebius' work will be inspiring artists for years to come and still has a profound effect on many abstract and surrealist works.
 
 ---
 
-Link to [Google](http://www.google.com)
+- [Jean Giraud Moebius' Facebook](https://www.facebook.com/JeanGiraudArt/)
+
+- [The Art of Moebius](https://www.iamag.co/the-art-of-moebius/)

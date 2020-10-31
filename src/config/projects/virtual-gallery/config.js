@@ -1,30 +1,28 @@
 import description from './description';
 
-import bigRedImage from './images/big-red-image.jpg';
 import smallOrangeImage from './images/small-orange-image.jpg';
-import smallRedImage from './images/small-red-image.png';
 
 const config = {
-  slug: 'template-example',
-  title: 'Template Sample',
-  shortDescription: 'test',
+  slug: 'virtual-gallery',
+  title: 'My Virtual Gallery',
+  shortDescription:
+    'A project from my Art 74 class where I created a virtual gallery for my Pixel Art.',
   description,
-  type: 'traditional',
+  type: 'digital',
+  splashimageurl: smallOrangeImage,
   images: [
     {
-      url: bigRedImage,
+      url: smallOrangeImage,
       title: 'magna vulputate',
       description: 'lorem ipsum foobar magna vulputate',
     },
+  ],
+  videos: [
     {
-      url: smallOrangeImage,
-      title: 'ridiculus mus',
-      description: 'lorem ipsum foobar ridiculus mus',
-    },
-    {
-      url: smallRedImage,
-      title: 'quisque ut',
-      description: 'lorem ipsum foobar quisque ut',
+      url: 'https://www.youtube.com/embed/Cw3HNFUMcss',
+      title: 'Virtual Gallery',
+      description:
+        'A virtual gallery originally made for my Art 74 class, the gallery and pixel art were both made in SketchUp.',
     },
   ],
 };
