@@ -7,7 +7,12 @@ import Image from './Image';
 function Art({ isRounded, type }) {
   return (
     <>
-      <PageTitle>{strings[type]}</PageTitle>
+      <PageTitle includeLineBreak={type !== 'inspiration'}>{strings[type]}</PageTitle>
+      {type === 'inspiration' && (
+        <blockquote className='blockquote text-center'>
+          <small class='mb-0'>{strings.inspirationDisclaimer}</small>
+        </blockquote>
+      )}
       <div className='row'>
         {projects
           ?.filter((projects) => projects.type === type)

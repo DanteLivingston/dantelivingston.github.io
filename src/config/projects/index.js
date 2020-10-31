@@ -4,10 +4,10 @@ import videoEditingProject from './video-editing-project/config';
 import virtualGallery from './virtual-gallery/config';
 import interactiveAudioProject from './interactive-audio-project/config';
 import glitchArt from './glitch-art/config';
-import photoshopprojects from './photoshop-projects/config';
-import fakeproduct from './fake-product/config';
+import photoShopProjects from './photoshop-projects/config';
+import fakeProduct from './fake-product/config';
 import digitalPhotography from './digital-photography/config';
-import videoGallery from './video-gallery/config';
+// import videoGallery from './video-gallery/config';
 
 //inspiration
 import hayaoMiyazaki from './hayao-miyazaki/config';
@@ -27,10 +27,10 @@ const projects = [
   // Digital Art
   digitalTextures,
   glitchArt,
-  photoshopprojects,
-  fakeproduct,
+  photoShopProjects,
+  fakeProduct,
   digitalPhotography,
-  videoGallery,
+  // videoGallery,
   videoEditingProject,
   virtualGallery,
   interactiveAudioProject,
