@@ -14,7 +14,7 @@ function About() {
           <Image
             title={strings.danteLivingston}
             url={aboutImage}
-            height='400'
+            height='450'
             keepAspectRatio={true}
           />
         </div>

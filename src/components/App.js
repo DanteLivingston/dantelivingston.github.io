@@ -70,16 +70,18 @@ function App() {
                     {strings.traditional}
                   </NavLink>
                 </li>
-                <li className='nav-item'>
-                  <NavLink
-                    to='/art-details/tools'
-                    className='nav-link'
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
-                  >
-                    <GearFill style={{ marginTop: '-5px' }} className='mr-2' />
-                    {strings.tools}
-                  </NavLink>
-                </li>
+                {strings.enableTools && (
+                  <li className='nav-item'>
+                    <NavLink
+                      to='/art-details/tools'
+                      className='nav-link'
+                      onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    >
+                      <GearFill style={{ marginTop: '-5px' }} className='mr-2' />
+                      {strings.tools}
+                    </NavLink>
+                  </li>
+                )}
               </ul>
             </div>
           </div>

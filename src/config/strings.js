@@ -9,6 +9,7 @@ const strings = {
   images: 'Images',
   inspiration: 'Inspiration',
   inspirationDisclaimer: 'Note: All inspiration art was designed by the respective artists.',
+  enableTools: false,
   errorTitle: 'Oops!',
   errorNotFound: 'This page was not found.',
   errorGoHome: 'Go Home?',
