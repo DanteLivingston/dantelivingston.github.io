@@ -1,8 +1,8 @@
 import description from './description';
 
-import bigRedImage from './images/min/big-red-image.jpg';
-import smallOrangeImage from './images/min/small-orange-image.jpg';
-import smallRedImage from './images/min/small-red-image.png';
+import bigRedImage from './images/big-red-image.jpg';
+import smallOrangeImage from './images/small-orange-image.jpg';
+import smallRedImage from './images/small-red-image.png';
 
 const config = {
   slug: 'video-gallery',

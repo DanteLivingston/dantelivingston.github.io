@@ -1,9 +1,9 @@
 import description from './description';
 
-import kimGiPFP from './images/min/KimJungGi_PFP.jpg';
-import kimGiBrush from './images/min/KimJungGi_Work_01.jpg';
-import kimGiColor from './images/min/KimJungGi_Work_02.jpg';
-import kimGiDetail from './images/min/KimJungGi_Work_03.jpg';
+import kimGiPFP from './images/KimJungGi_PFP.jpg';
+import kimGiBrush from './images/KimJungGi_Work_01.jpg';
+import kimGiColor from './images/KimJungGi_Work_02.jpg';
+import kimGiDetail from './images/KimJungGi_Work_03.jpg';
 
 const config = {
   slug: 'kim-jung-gi',

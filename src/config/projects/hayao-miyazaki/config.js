@@ -1,9 +1,9 @@
 import description from './description';
 
-import hayaoMiyazakiPFP from './images/min/HayaoMiyazaki_PFP.jpg';
-import hayaoMiyazakTotoro from './images/min/HayaoMiyazaki_Work_01.jpg';
-import hayaoMiyazakiMononoke from './images/min/HayaoMiyazaki_Work_02.jpg';
-import hayaoMiyazkiNausicaa from './images/min/HayaoMiyazaki_Work_03.jpg';
+import hayaoMiyazakiPFP from './images/HayaoMiyazaki_PFP.jpg';
+import hayaoMiyazakTotoro from './images/HayaoMiyazaki_Work_01.jpg';
+import hayaoMiyazakiMononoke from './images/HayaoMiyazaki_Work_02.jpg';
+import hayaoMiyazkiNausicaa from './images/HayaoMiyazaki_Work_03.jpg';
 
 const config = {
   slug: 'hayao-miyazaki',

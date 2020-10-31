@@ -1,6 +1,7 @@
 const strings = {
   about: 'About',
   danteLivingston: 'Dante Livingston',
+  tools: 'Tools',
   digital: 'Digital Art',
   digitalDescription: 'Showcase of my digital art projects',
   footer: `Dante Livingston Copyright © ${new Date().getFullYear()}`,

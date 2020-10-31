@@ -6,7 +6,7 @@ import Home from './Home';
 import strings from '../config/strings';
 import { SocialIcon } from 'react-social-icons';
 import { useState } from 'react';
-import { CameraFill, EaselFill, HouseFill, PersonFill } from 'react-bootstrap-icons';
+import { CameraFill, EaselFill, HouseFill, PersonFill, GearFill } from 'react-bootstrap-icons';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,7 +39,7 @@ function App() {
                     className='nav-link'
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                   >
-                    <CameraFill style={{ marginTop: '-5px' }} className='mr-2' />
+                    <PersonFill style={{ marginTop: '-5px' }} className='mr-2' />
                     {strings.about}
                   </NavLink>
                 </li>
@@ -49,7 +49,7 @@ function App() {
                     className='nav-link'
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                   >
-                    <PersonFill style={{ marginTop: '-5px' }} className='mr-2' />
+                    <CameraFill style={{ marginTop: '-5px' }} className='mr-2' />
                     {strings.digital}
                   </NavLink>
                 </li>
@@ -61,6 +61,16 @@ function App() {
                   >
                     <EaselFill style={{ marginTop: '-5px' }} className='mr-2' />
                     {strings.traditional}
+                  </NavLink>
+                </li>
+                <li className='nav-item'>
+                  <NavLink
+                    to='/art-details/tools'
+                    className='nav-link'
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                  >
+                    <GearFill style={{ marginTop: '-5px' }} className='mr-2' />
+                    {strings.tools}
                   </NavLink>
                 </li>
               </ul>
