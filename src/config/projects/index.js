@@ -18,6 +18,7 @@ import jeanMoebius from './jean-moebius/config';
 import kimJungGi from './kim-jung-gi/config';
 
 //traditional
+import minimalist from './minimalist-art/config';
 
 //other
 import template from './template/config';
@@ -42,6 +43,7 @@ const projects = [
   jeanMoebius,
   kimJungGi,
   // Traditional Art
+  minimalist,
   template,
   // Other
   tools,
