@@ -2,5 +2,7 @@ const description = `<h2>About Me</h2>
 
 <p>Hi, my name is Dante Livingston. I am currently a third year Digital Media Art student at San Jose State University. I grew up in San Diego in Southern California and from a very early period in my life, my parents took me hiking and camping. This manifested itself into my love for the outdoors in later years and now I enjoy bringing nature and environmental themes into my work. I consume a huge variety of media from books, movies, foreign media and video games which has given me a wide view of different artforms since childhood. I have always been a media sponge and hope to work in one of the industries related to media production for my career.</p>
 
-<h2>Artists Statement</h2>`
-export default description
+<h2>Artist&#39;s Statement</h2>
+
+<p>I work primarily within the digital space, however I will never forget what environment my physical body lives in. So much art is made digitally as a way to move towards ease of production, ease of access, freedom from traditional constraints and to put less of a strain on the environment. However often the physical world is forgotten by digital artists as they primarily focus on the medium they intend their work to be viewed in. I have always been an environmentalist and have been able to include themes of anti pollution and conservation efforts in my work, but even I have strayed from this path somewhat. That is not to say that I despise new media work, my opinion regarding it is actually that I enjoy it as much or more than I do traditional art. Through digital art I have found a way to express art as an interactive experience moreso than ever before and it has freed me from many constraints that previously held me back. Being able to utilize a myriad of resources by others more talanted than myself in order to create the best work possible has been my path to growth and as technology has moved forward, so has my art.</p>`;
+export default description;

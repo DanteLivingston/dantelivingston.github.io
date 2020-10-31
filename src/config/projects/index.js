@@ -19,6 +19,9 @@ import kimJungGi from './kim-jung-gi/config';
 
 //traditional
 import minimalist from './minimalist-art/config';
+import plasticSculpture from './plastic-and-metal-sculpture/config';
+import traditionalInk from './traditional-ink-drawing/config';
+import wireSculpture from './WireSculpture/config';
 
 //other
 import template from './template/config';
@@ -45,6 +48,9 @@ const projects = [
   // Traditional Art
   minimalist,
   template,
+  plasticSculpture,
+  traditionalInk,
+  wireSculpture,
   // Other
   tools,
 ];

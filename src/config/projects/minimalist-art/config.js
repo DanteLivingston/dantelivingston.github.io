@@ -13,36 +13,37 @@ const config = {
   shortDescription: 'A series of peices focussing on minimalism and contrast.',
   description,
   type: 'traditional',
+  splashImageUrl: minimalistSpread,
   images: [
     {
       url: minimalistSpread,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-    {
-      url: swissArmy_01,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-    {
-      url: swissArmy_02,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-    {
-      url: swissArmy_03,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-    {
-      url: swissArmy_04,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
+      title: 'A Spread of Minimalist Line Art',
+      description: 'Made 2019',
     },
     {
       url: swissArmyFull,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
+      title: 'Full spread of Swiss Army Knife Works',
+      description: 'Made 2019',
+    },
+    {
+      url: swissArmy_04,
+      title: 'Minimalist Swiss Army Knife',
+      description: 'Made 2019',
+    },
+    {
+      url: swissArmy_01,
+      title: "Minimalist Swiss Army Knife's Blade",
+      description: 'Made 2019',
+    },
+    {
+      url: swissArmy_02,
+      title: "Minimalist Swiss Army Knife's Scooper Tool",
+      description: 'Made 2019',
+    },
+    {
+      url: swissArmy_03,
+      title: "Minimalist Swiss Army Knife's Bottle Opener Tool",
+      description: 'Made 2019',
     },
   ],
 };

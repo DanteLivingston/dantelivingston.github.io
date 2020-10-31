@@ -18,5 +18,5 @@ const description = `<h1>H1 Header</h1>
 
 <hr/>
 
-<p>Link to <a rel='noopener noreferrer' target='_blank' href="http://www.google.com">Google</a></p>`
+<ul><li>Link to <a rel='noopener noreferrer' target='_blank' href="http://www.google.com">Google</a></li></ul>`
 export default description

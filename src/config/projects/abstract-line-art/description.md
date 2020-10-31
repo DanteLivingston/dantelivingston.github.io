@@ -24,4 +24,4 @@ Horizontal rule below
 
 ---
 
-Link to [Google](http://www.google.com)
+- Link to [Google](http://www.google.com)

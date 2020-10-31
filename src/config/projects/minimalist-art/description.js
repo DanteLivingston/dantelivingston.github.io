@@ -1,22 +1,8 @@
-const description = `<h1>H1 Header</h1>
+const description = `<p>This is a series of art focussed on minimalism and expression through heavy contrast. It was completed originally as a part of my Art 12, however I have taken the lessons I have learned because of it much further. Being able to create a legible work entirely of black and white is something I would later express further in my digital photography with the core lessons being originally taught to me with this project.</p>
 
-<h2>H2</h2>
-
-<h3>H3</h3>
-
-<p>I am <strong>bold</strong> text</p>
-
-<p>I am <em>italicized</em> text</p>
-
-<blockquote><p>I am block quote</p></blockquote>
-
-<ol><li>first</li><li>second</li><li><p>third</p></li><li><p>first</p></li><li>second</li><li>third</li></ol>
-
-<p><code>i am code</code></p>
-
-<p>Horizontal rule below</p>
+<p>The minimalist spread is a series of line drawings where line weight, patterns and value are emphasized to make each individual square unique enough to stand out, yet consistent when viewed as a whole. The other piece in this project, the <strong><a rel='noopener noreferrer' target='_blank' href="https://www.swissarmy.com/us/en/Products/Swiss-Army-Knives/c/SAK">Swiss Army Knife</a></strong> was meant to imitate a generic knife and express all of it’s forms within a purely black and white medium. This taught me a lot about value, form and how to express them in a purely minimalist sense. The piece also consists of a few more abstract sections of the knife that were meant to confuse you as to where they might be located on the actual object.</p>
 
 <hr/>
 
-<p>Link to <a rel='noopener noreferrer' target='_blank' href="http://www.google.com">Google</a></p>`
+<ul><li>Link to the <a rel='noopener noreferrer' target='_blank' href="https://www.swissarmy.com/us/en/Products/Swiss-Army-Knives/c/SAK">Swiss Army Knife</a></li></ul>`
 export default description

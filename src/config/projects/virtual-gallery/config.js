@@ -12,7 +12,7 @@ const config = {
   splashImageUrl: smallOrangeImage,
   videos: [
     {
-      url: 'https://www.youtube.com/embed/Cw3HNFUMcss',
+      url: 'https://www.youtube.com/embed/rvO8PisxoFU',
       title: 'Virtual Gallery',
       description:
         'A virtual gallery originally made for my Art 74 class, the gallery and pixel art were both made in SketchUp.',

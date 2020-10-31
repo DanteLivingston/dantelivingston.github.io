@@ -1,29 +1,37 @@
 import description from './description';
 
-import bigRedImage from './images/big-red-image.jpg';
-import smallOrangeImage from './images/small-orange-image.jpg';
-import smallRedImage from './images/small-red-image.png';
+import sharkSideView from './images/SharkSideView.jpg';
+import sharkThreeQuartersView from './images/SharkThreeQuarterView.jpg';
+import sharkThreeQuartersView_02 from './images/SharkThreeQuarterView_02.jpg';
+import sharkTopView from './images/SharkTopView.jpg';
 
 const config = {
-  slug: 'template-example',
-  title: 'Template Sample',
+  slug: 'plastic-sculpture',
+  title: 'Polluted Art',
+  shortDescription: 'A sculpture created with plastic waste and casted metal components.',
   description,
   type: 'traditional',
+  splashImageUrl: sharkThreeQuartersView_02,
   images: [
     {
-      url: bigRedImage,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
+      url: sharkSideView,
+      title: 'Shark Sculpture Side View',
+      description: 'Made 2019',
     },
     {
-      url: smallOrangeImage,
-      title: 'ridiculus mus',
-      description: 'lorem ipsum foobar ridiculus mus',
+      url: sharkThreeQuartersView,
+      title: 'Shark Sculpture Three Quarters View',
+      description: 'Made 2019',
     },
     {
-      url: smallRedImage,
-      title: 'quisque ut',
-      description: 'lorem ipsum foobar quisque ut',
+      url: sharkThreeQuartersView_02,
+      title: 'Shark Sculpture Alternate Three Quarters View',
+      description: 'Made 2019',
+    },
+    {
+      url: sharkTopView,
+      title: 'Shark Sculpture Top View',
+      description: 'Made 2019',
     },
   ],
 };

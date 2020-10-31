@@ -10,6 +10,7 @@ const config = {
   shortDescription: 'test',
   description,
   type: 'traditional',
+
   images: [
     {
       url: bigRedImage,
