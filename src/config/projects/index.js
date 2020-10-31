@@ -1,6 +1,8 @@
 import template from './template/config';
 import digitalTextures from './digital-textures/config';
-import miyazaki from './hayao-miyazaki/config';
+import hayaoMiyazaki from './hayao-miyazaki/config';
+import aaronBlaise from './aaron-blaise/config';
+import corridorDigital from './corridor-digital/config';
 import glitchArt from './glitch-art/config';
 import photoshopprojects from './photoshop-projects/config';
 import fakeproduct from './fake-product/config';
@@ -14,7 +16,9 @@ const projects = [
   fakeproduct,
   digitalPhotography,
   // Inspiration
-  miyazaki,
+  hayaoMiyazaki,
+  aaronBlaise,
+  corridorDigital,
   // Traditional Art
   template,
 ];

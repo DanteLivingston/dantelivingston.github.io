@@ -1,6 +1,6 @@
 import description from './description';
 
-import fendZhuPFP from './images/FengZhu_PFP.jpg';
+import fengZhuPFP from './images/FengZhu_PFP.jpg';
 import fengZhuAlien from './images/FengZhu_Work_01.jpg';
 import fengZhuShip from './images/FengZhu_Work_02.jpg';
 import fengZhuLineArt from './images/FengZhu_Work_03.jpg';
@@ -11,10 +11,10 @@ const config = {
   shortDescription: 'Template Sample Description',
   description,
   type: 'inspiration',
-  splashImageUrl: fenhZhuPFP,
+  splashImageUrl: fengZhuPFP,
   images: [
     {
-      url: fendZhuPFP,
+      url: fengZhuPFP,
       title: 'Digital Lion Drawing by Aaron Blaise',
       description: 'lorem ipsum foobar magna vulputate',
     },
