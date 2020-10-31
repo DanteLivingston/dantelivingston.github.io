@@ -9,14 +9,7 @@ const config = {
     'A project from my Art 74 class where I created a virtual gallery for my Pixel Art.',
   description,
   type: 'digital',
-  splashimageurl: smallOrangeImage,
-  images: [
-    {
-      url: smallOrangeImage,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-  ],
+  splashImageUrl: smallOrangeImage,
   videos: [
     {
       url: 'https://www.youtube.com/embed/Cw3HNFUMcss',

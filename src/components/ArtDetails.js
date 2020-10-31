@@ -47,7 +47,10 @@ function ArtDetails() {
                       title={image.title}
                       url={image.url}
                     />
-                    <h3 className='h5 mt-2 text-center'>{image.title}</h3>
+                    <h3
+                      className='h5 mt-2 text-center'
+                      dangerouslySetInnerHTML={{ __html: image.title }}
+                    />
                   </div>
                 ))}
               </div>
@@ -57,7 +60,7 @@ function ArtDetails() {
             <div className='row'>
               {project?.videos?.map((video, index) => (
                 <div className='col-12' key={index}>
-                  <hr />
+                  {!!project.images && <hr />}
                   <h2>Video</h2>
                   <div className='embed-responsive embed-responsive-16by9'>
                     <iframe
@@ -78,7 +81,8 @@ function ArtDetails() {
             <div className='row'>
               {project?.audios?.map((audio, index) => (
                 <div className='col-12' key={index}>
-                  <hr /> <h2>Audio</h2>
+                  {!!project.videos && <hr />}
+                  <h2>Audio</h2>
                   <audio controls className='w-100'>
                     <source src={audio.url} type='audio/mpeg' />
                     Your browser does not support the audio element.

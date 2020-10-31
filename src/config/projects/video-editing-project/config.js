@@ -8,7 +8,7 @@ const config = {
   shortDescription: 'A project from my Art 75 class focussing on learning Video Editing.',
   description,
   type: 'digital',
-  splashimageurl: smallOrangeImage,
+  splashImageUrl: smallOrangeImage,
   images: [
     {
       url: smallOrangeImage,

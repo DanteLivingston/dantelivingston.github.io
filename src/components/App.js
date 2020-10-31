@@ -1,8 +1,9 @@
-import { HashRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
-import strings from '../config/strings';
-import { SocialIcon } from 'react-social-icons';
 import { lazy, Suspense, useState } from 'react';
-import { CameraFill, EaselFill, HouseFill, PersonFill, GearFill } from 'react-bootstrap-icons';
+import { CameraFill, EaselFill, GearFill, HouseFill, PersonFill } from 'react-bootstrap-icons';
+import { HashRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
+import { SocialIcon } from 'react-social-icons';
+import strings from '../config/strings';
+import DocumentTitle from './DocumentTitle';
 
 const About = lazy(() => import('./About'));
 const Art = lazy(() => import('./Art'));
@@ -12,8 +13,10 @@ const NotFound = lazy(() => import('./NotFound'));
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <Router>
+      <DocumentTitle />
       <header>
         <nav className='navbar navbar-expand-lg navbar-dark fixed-top bg-dark'>
           <div className='container'>

@@ -1,9 +1,9 @@
 import { SocialIcon } from 'react-social-icons';
-import PageTitle from './PageTitle';
+import about from '../config/about';
 import strings from '../config/strings';
 import Art from './Art';
 import Image from './Image';
-import about from '../config/about';
+import PageTitle from './PageTitle';
 
 function About() {
   return (

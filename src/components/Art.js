@@ -20,7 +20,7 @@ function Art({ isRounded, type }) {
                     hasLink={true}
                     keepAspectRatio={true}
                     title={project.title}
-                    url={project.splashImageUrl || project.images[0].url}
+                    url={project.splashImageUrl || project?.images?.[0]?.url}
                   />
                   <h3 className='h5 mt-2'>{`${project.title}`}</h3>
                 </Link>
