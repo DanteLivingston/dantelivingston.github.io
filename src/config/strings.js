@@ -8,6 +8,9 @@ const strings = {
   home: 'Home',
   inspiration: 'Inspiration',
   inspirationDisclaimer: 'Note: All inspiration art was designed by the respective artists.',
+  pageNotFoundTitle: 'Oops!',
+  pageNotFoundDescription: 'This page was not found.',
+  pageNotFoundGoHome: 'Go Home?',
   // network list: https://github.com/jaketrent/react-social-icons/blob/master/src/_networks-db.js
   socialLinks: [
     {

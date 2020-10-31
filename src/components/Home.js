@@ -42,7 +42,7 @@ function Home() {
   return (
     <>
       <PageTitle>{strings.home}</PageTitle>
-      <Carousel activeIndex={activeIndex} next={next} previous={previous}>
+      <Carousel activeIndex={activeIndex} next={next} previous={previous} className='shadow-md'>
         <CarouselIndicators
           items={filteredProjects}
           activeIndex={activeIndex}
@@ -79,7 +79,7 @@ function Home() {
       <hr className='border-secondary my-4' />
       <div className='row'>
         <div className='col-6'>
-          <div className='card'>
+          <div className='card shadow-lg'>
             <Image
               className='card-img-top'
               hasLink={true}
@@ -100,7 +100,7 @@ function Home() {
           </div>
         </div>
         <div className='col-6'>
-          <div className='card'>
+          <div className='card shadow-lg'>
             <Image
               className='card-img-top'
               hasLink={true}

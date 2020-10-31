@@ -7,6 +7,7 @@ import strings from '../config/strings';
 import { SocialIcon } from 'react-social-icons';
 import { useState } from 'react';
 import { CameraFill, EaselFill, HouseFill, PersonFill, GearFill } from 'react-bootstrap-icons';
+import NotFound from './NotFound';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -93,8 +94,11 @@ function App() {
             <Route path='/art-details/:slug'>
               <ArtDetails />
             </Route>
-            <Route path='/'>
+            <Route exact path='/'>
               <Home />
+            </Route>
+            <Route>
+              <NotFound />
             </Route>
           </Switch>
         </div>
