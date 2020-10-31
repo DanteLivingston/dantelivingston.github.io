@@ -74,47 +74,52 @@ const config = {
     {
       url: overlook,
       title: 'Overlook View',
-      description: 'An overlook view of my zipcode you see at the end of a hike near my house | Made 2019',
+      description:
+        'An overlook view of my zipcode you see at the end of a hike near my house | Made 2019',
     },
     {
       url: overlookWide,
       title: 'Overlook View Wideangle',
-      description: 'An overlook view of my zipcode you see at the end of a hike near my house - Wideangle | Made 2019',
+      description: 'A view of Miramar Lake which is in my neighborhood - Wideangle | Made 2019',
     },
     {
       url: lakeView,
       title: 'Lake View',
-      description: 'lorem ipsum foobar magna vulputate',
+      description: 'A view of Miramar Lake which is in my neighborhood | Made 2019',
     },
     {
       url: sky,
       title: 'Sky Shot',
-      description: 'lorem ipsum foobar magna vulputate',
+      description: 'A picture of the sky and the wavy clouds | Made 2019',
     },
     {
       url: wavySky,
       title: 'Wavy Sky Shot',
-      description: 'lorem ipsum foobar magna vulputate',
+      description: 'A picture of the sky and the wavy clouds with landscape | Made 2019',
     },
     {
       url: wideSky,
       title: 'Wide Sky Shot',
-      description: 'lorem ipsum foobar magna vulputate',
+      description:
+        'A picture of the sky from the same overlook used for the Miramar Lake photography | Made 2019',
     },
     {
       url: singleFlower,
       title: 'Single Flower',
-      description: 'lorem ipsum foobar magna vulputate',
+      description:
+        "A single flower meant to draw the viewer's eye to the corner of the page instead of the center like usual | Made 2019",
     },
     {
       url: leadingRoad,
       title: 'Leading Lines Road',
-      description: 'lorem ipsum foobar magna vulputate',
+      description:
+        "Another picture meant to draw the viewer's eye, this time down the long sidewalk | Made 2019",
     },
     {
       url: nightShot,
       title: 'Night Nature Photography',
-      description: 'lorem ipsum foobar magna vulputate',
+      description:
+        'Some night photography with the Moon taking center stage through a dead autumn tree | Made 2019',
     },
   ],
 };
