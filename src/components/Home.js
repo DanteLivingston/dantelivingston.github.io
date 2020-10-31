@@ -1,15 +1,13 @@
-import { Link } from 'react-router-dom';
-
+import _shuffle from 'lodash.shuffle';
+import { CameraFill, EaselFill } from 'react-bootstrap-icons';
+import { Link, useHistory } from 'react-router-dom';
 import projects from '../config/projects';
-import PageTitle from './PageTitle';
-import strings from '../config/strings';
-import { useHistory } from 'react-router-dom';
-import Image from './Image';
 import digitalImage from '../config/projects/digital-textures/images/MossyRocks_3D.png';
 import traditionalImage from '../config/projects/template/images/big-red-image.jpg';
-import { CameraFill, EaselFill } from 'react-bootstrap-icons';
-import _shuffle from 'lodash.shuffle';
+import strings from '../config/strings';
 import Carousel from './Carousel';
+import Image from './Image';
+import PageTitle from './PageTitle';
 
 function Home() {
   let history = useHistory();
