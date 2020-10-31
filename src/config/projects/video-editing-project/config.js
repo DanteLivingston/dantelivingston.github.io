@@ -9,13 +9,6 @@ const config = {
   description,
   type: 'digital',
   splashImageUrl: smallOrangeImage,
-  images: [
-    {
-      url: smallOrangeImage,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-  ],
   videos: [
     {
       url: 'https://www.youtube.com/embed/Cw3HNFUMcss',
