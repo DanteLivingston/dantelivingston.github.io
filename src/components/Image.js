@@ -1,12 +1,21 @@
-function Image({ className, hasLink, height = '300', keepAspectRatio, onClick, title, url }) {
+function Image({
+  className,
+  hasLink,
+  height = '300',
+  isRounded,
+  keepAspectRatio,
+  onClick,
+  title,
+  url,
+}) {
   return (
     <img
       alt={title}
       title={title}
       src={url}
-      className={`w-100 rounded shadow-lg ${hasLink ? 'has-link' : ''} ${
+      className={`w-100 rounded shadow-md ${hasLink ? 'has-link' : ''} ${
         className ? className : ''
-      }`}
+      } ${isRounded ? 'rounded-circle px-4' : ''}`}
       onClick={onClick}
       style={{
         objectFit: keepAspectRatio ? 'cover' : undefined,

@@ -3,11 +3,11 @@ import { CameraFill, EaselFill, GearFill, HouseFill, PersonFill } from 'react-bo
 import { HashRouter as Router, NavLink, Route, Switch } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
 import strings from '../config/strings';
-import DocumentTitle from './DocumentTitle';
 
 const About = lazy(() => import('./About'));
 const Art = lazy(() => import('./Art'));
 const ArtDetails = lazy(() => import('./ArtDetails'));
+const DocumentTitle = lazy(() => import('./DocumentTitle'));
 const Home = lazy(() => import('./Home'));
 const NotFound = lazy(() => import('./NotFound'));
 
@@ -16,7 +16,9 @@ function App() {
 
   return (
     <Router>
-      <DocumentTitle />
+      <Suspense fallback={null}>
+        <DocumentTitle />
+      </Suspense>
       <header>
         <nav className='navbar navbar-expand-lg navbar-dark fixed-top bg-dark'>
           <div className='container'>

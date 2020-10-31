@@ -1,16 +1,15 @@
-import { useParams } from 'react-router-dom';
-import projects from '../config/projects';
-import PageTitle from './PageTitle';
 import { useState } from 'react';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
-import Image from './Image';
+import { useHistory, useParams } from 'react-router-dom';
+import projects from '../config/projects';
 import strings from '../config/strings';
-import { useHistory } from 'react-router-dom';
+import Image from './Image';
+import PageTitle from './PageTitle';
 
 function ArtDetails() {
-  let { slug } = useParams();
-  let history = useHistory();
+  const { slug } = useParams();
+  const history = useHistory();
 
   const project = projects?.find((project) => project.slug === slug);
   if (!project) {
@@ -24,6 +23,17 @@ function ArtDetails() {
       <PageTitle>{project.title}</PageTitle>
       <div className='row'>
         <div className='col-4'>
+          {project.type === 'inspiration' && (
+            <Image
+              className={project.type === 'inspiration' ? 'mt-4 mb-5' : ''}
+              isRounded={true}
+              hasLink={false}
+              height='300'
+              keepAspectRatio={true}
+              title={project.title}
+              url={project.splashImageUrl}
+            />
+          )}
           <blockquote dangerouslySetInnerHTML={{ __html: project.description }} />
         </div>
         <div className='col-8'>
@@ -96,7 +106,7 @@ function ArtDetails() {
       {project.type === 'inspiration' && (
         <blockquote className='blockquote text-center mt-3'>
           <br />
-          <strong className='mt-3 mb-0'>{strings.inspirationDisclaimer}</strong>
+          <strong className='mt-3 mb-0 text-muted'>{strings.inspirationDisclaimer}</strong>
         </blockquote>
       )}
       {isModalOpen && !!project.images && (
