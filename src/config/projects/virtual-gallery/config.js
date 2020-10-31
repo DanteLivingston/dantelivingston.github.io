@@ -1,6 +1,6 @@
 import description from './description';
 
-import smallOrangeImage from './images/small-orange-image.jpg';
+import virtualThumbnail from './images/GalleryThumbnailCompressed.jpg';
 
 const config = {
   slug: 'virtual-gallery',
@@ -9,7 +9,7 @@ const config = {
     'A project from my Art 74 class where I created a virtual gallery for my Pixel Art.',
   description,
   type: 'digital',
-  splashImageUrl: smallOrangeImage,
+  splashImageUrl: virtualThumbnail,
   videos: [
     {
       url: 'https://www.youtube.com/embed/rvO8PisxoFU',
