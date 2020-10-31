@@ -20,7 +20,7 @@ function Home() {
   let history = useHistory();
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
-  const filteredProjects = projects.filter(({ type }) => type !== 'inspiration');
+  const filteredProjects = projects?.filter(({ type }) => type !== 'inspiration') ?? [];
 
   const next = () => {
     if (animating) return;
@@ -49,8 +49,8 @@ function Home() {
           onClickHandler={goToIndex}
         />
         {filteredProjects
-          .filter(({ type }) => type !== 'inspiration')
-          .map((project) => {
+          ?.filter(({ type }) => type !== 'inspiration')
+          ?.map((project) => {
             return (
               <CarouselItem
                 onExiting={() => setAnimating(true)}

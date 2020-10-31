@@ -4,7 +4,6 @@ import PageTitle from './PageTitle';
 import { useState } from 'react';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
-import LazyLoad from 'react-lazyload';
 import Image from './Image';
 import strings from '../config/strings';
 import { useHistory } from 'react-router-dom';
@@ -13,7 +12,7 @@ function ArtDetails() {
   let { slug } = useParams();
   let history = useHistory();
 
-  const project = projects.find((project) => project.slug === slug);
+  const project = projects?.find((project) => project.slug === slug);
   if (!project) {
     history.push('/not-found');
   }
@@ -32,7 +31,7 @@ function ArtDetails() {
             <>
               <h2>Images</h2>
               <div className='row'>
-                {project.images.map((image, index) => (
+                {project?.images?.map((image, index) => (
                   <div
                     className='col-4 cursor-pointer'
                     key={index}
@@ -41,15 +40,13 @@ function ArtDetails() {
                       setIsModalOpen(!isModalOpen);
                     }}
                   >
-                    <LazyLoad height={400}>
-                      <Image
-                        hasLink={true}
-                        height='300'
-                        keepAspectRatio={true}
-                        title={image.title}
-                        url={image.url}
-                      />
-                    </LazyLoad>
+                    <Image
+                      hasLink={true}
+                      height='300'
+                      keepAspectRatio={true}
+                      title={image.title}
+                      url={image.url}
+                    />
                     <h3 className='h5 mt-2 text-center'>{image.title}</h3>
                   </div>
                 ))}
@@ -58,7 +55,7 @@ function ArtDetails() {
           )}
           {project.videos && (
             <div className='row'>
-              {project.videos.map((video, index) => (
+              {project?.videos?.map((video, index) => (
                 <div className='col-12' key={index}>
                   <hr />
                   <h2>Video</h2>
@@ -79,7 +76,7 @@ function ArtDetails() {
           )}
           {project.audios && (
             <div className='row'>
-              {project.audios.map((audio, index) => (
+              {project?.audios?.map((audio, index) => (
                 <div className='col-12' key={index}>
                   <hr /> <h2>Audio</h2>
                   <audio controls className='w-100'>
@@ -98,7 +95,7 @@ function ArtDetails() {
           <strong className='mt-3 mb-0'>{strings.inspirationDisclaimer}</strong>
         </blockquote>
       )}
-      {isModalOpen && (
+      {isModalOpen && !!project.images && (
         <Lightbox
           imageTitle={project.images[imageIndex].title}
           imageCaption={project.images[imageIndex].description}

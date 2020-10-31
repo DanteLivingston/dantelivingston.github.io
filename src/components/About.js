@@ -22,7 +22,7 @@ function About() {
       <hr className='border-secondary my-4' />
       <div className='row'>
         <div className='col-2'></div>
-        {strings.socialLinks.map((socialLink) => (
+        {strings?.socialLinks?.map((socialLink) => (
           <div className='col-2 text-center' key={socialLink.network}>
             <SocialIcon
               style={{ height: 50, width: 50 }}

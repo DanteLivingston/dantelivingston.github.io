@@ -10,8 +10,8 @@ function Art({ isRounded, type }) {
       <PageTitle>{strings[type]}</PageTitle>
       <div className='row'>
         {projects
-          .filter((projects) => projects.type === type)
-          .map((project) => {
+          ?.filter((projects) => projects.type === type)
+          ?.map((project) => {
             return (
               <div className='col-4 mb-4 text-center' key={project.slug}>
                 <Link to={`/art-details/${project.slug}`}>
