@@ -3,6 +3,7 @@ import strings from '../config/strings';
 import Art from './Art';
 import Image from './Image';
 import PageTitle from './PageTitle';
+import aboutImage from '../config/about.jpg';
 
 function About() {
   return (
@@ -12,8 +13,9 @@ function About() {
         <div className='col-4'>
           <Image
             title={strings.danteLivingston}
-            url='http://dummyimage.com/400x400.jpg/cc00dd/ffffff'
+            url={aboutImage}
             height='300'
+            keepAspectRatio={true}
           />
         </div>
         <div className='col-8' dangerouslySetInnerHTML={{ __html: about }}></div>
