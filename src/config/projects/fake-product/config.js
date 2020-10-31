@@ -1,8 +1,8 @@
 import description from './description';
 
-import crestBox from './images/crestbox.jpeg';
-import crestBoxFlavor from './images/crestboxflavor.jpeg';
-import crestAd from './images/crestadd.jpeg';
+import crestBox from './images/crestbox.jpg';
+import crestBoxFlavor from './images/crestboxflavor.jpg';
+import crestAd from './images/crestadd.jpg';
 
 const config = {
   slug: 'fake-crest-product',

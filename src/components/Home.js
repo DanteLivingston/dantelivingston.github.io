@@ -54,7 +54,6 @@ function Home() {
         {filteredProjects
           ?.filter(({ type }) => type !== 'inspiration')
           ?.map((project) => {
-            console.log(project);
             return (
               <CarouselItem
                 onExiting={() => setAnimating(true)}
