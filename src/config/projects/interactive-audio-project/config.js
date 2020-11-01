@@ -10,13 +10,13 @@ const config = {
   description,
   type: 'digital',
   splashImageUrl: audioForm,
-  images: [
-    {
-      url: audioForm,
-      title: 'Corrugated Roof Texture (3D)',
-      description: '3D texture of a Corrugated Roof Material | Made 2019',
-    },
-  ],
+  // images: [
+  //   {
+  //     url: audioForm,
+  //     title: 'Corrugated Roof Texture (3D)',
+  //     description: '3D texture of a Corrugated Roof Material | Made 2019',
+  //   },
+  // ],
   audios: [
     {
       url: audioProject,
