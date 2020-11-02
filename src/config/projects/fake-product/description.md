@@ -2,4 +2,4 @@ This was a project done through my Art 74 class where we had to make a 3D object
 
 ---
 
-Link to [Photoshop](https://www.adobe.com/products/photoshop.html)
+- Link to [Photoshop](https://www.adobe.com/products/photoshop.html)

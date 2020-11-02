@@ -2,7 +2,7 @@ Hayao Miyazaki is a Japanese director, writer, illustrator and animator most fam
 
 ---
 
-- [Aaron Blaise's Website](http://www.nausicaa.net/miyazaki/)
+- [Hayao Miyazaki's Website](http://www.nausicaa.net/miyazaki/)
 
 - [Hayao Miyazaki's Instagram](https://www.instagram.com/hayaomiyazaki/?hl=en)
 

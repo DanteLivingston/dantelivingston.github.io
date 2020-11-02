@@ -2,5 +2,5 @@ const description = `<p>This was a project done through my Art 74 class where we
 
 <hr/>
 
-<p>Link to <a rel='noopener noreferrer' target='_blank' href="https://www.adobe.com/products/photoshop.html">Photoshop</a></p>`
+<ul><li>Link to <a rel='noopener noreferrer' target='_blank' href="https://www.adobe.com/products/photoshop.html">Photoshop</a></li></ul>`
 export default description

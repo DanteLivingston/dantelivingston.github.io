@@ -2,5 +2,5 @@ const description = `<p>Hayao Miyazaki is a Japanese director, writer, illustrat
 
 <hr/>
 
-<ul><li><p><a rel='noopener noreferrer' target='_blank' href="http://www.nausicaa.net/miyazaki/">Aaron Blaise&#39;s Website</a></p></li><li><p><a rel='noopener noreferrer' target='_blank' href="https://www.instagram.com/hayaomiyazaki/?hl=en">Hayao Miyazaki&#39;s Instagram</a></p></li><li><p><a rel='noopener noreferrer' target='_blank' href="https://twitter.com/hmiyazaki_news?lang=en">Hayao Miyazaki&#39;s Twitter</a></p></li></ul>`
+<ul><li><p><a rel='noopener noreferrer' target='_blank' href="http://www.nausicaa.net/miyazaki/">Hayao Miyazaki&#39;s Website</a></p></li><li><p><a rel='noopener noreferrer' target='_blank' href="https://www.instagram.com/hayaomiyazaki/?hl=en">Hayao Miyazaki&#39;s Instagram</a></p></li><li><p><a rel='noopener noreferrer' target='_blank' href="https://twitter.com/hmiyazaki_news?lang=en">Hayao Miyazaki&#39;s Twitter</a></p></li></ul>`
 export default description

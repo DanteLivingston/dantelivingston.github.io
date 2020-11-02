@@ -45,12 +45,12 @@ const config = {
     {
       url: natureHikeAdjusted,
       title: 'Nature Hike Photography with Adjustments',
-      description: 'Pictures from a hike behind my house - Adjusted Contrast| Made 2019',
+      description: 'Pictures from a hike behind my house - Adjusted Contrast | Made 2019',
     },
     {
       url: natureHikeWide,
       title: 'Nature Hike Photography Cropped',
-      description: 'Pictures from a hike behind my house - Wideangle| Made 2019',
+      description: 'Pictures from a hike behind my house - Wideangle | Made 2019',
     },
     {
       url: leadingTrail,
@@ -65,7 +65,7 @@ const config = {
     {
       url: flowerField,
       title: 'Flower and Clover Field',
-      description: 'Picture of a Flower and Clover field from a hike behind my house | Made 2019',
+      description: 'Picture of a flower and clover field from a hike behind my house | Made 2019',
     },
     {
       url: deadTree,
@@ -114,7 +114,7 @@ const config = {
       url: leadingRoad,
       title: 'Leading Lines Road',
       description:
-        "Another picture meant to draw the viewer's eye, this time down the long sidewalk | Made 2019",
+        "Another picture meant to draw the viewer's eye, this time down a long sidewalk | Made 2019",
     },
     {
       url: nightShot,

@@ -1,6 +1,6 @@
 import description from './description';
 
-import smallOrangeImage from './images/small-orange-image.jpg';
+import editingThumbnail from './images/EditingProjThumbnailCompressedl.jpg';
 
 const config = {
   slug: 'video-editing-project',
@@ -8,14 +8,7 @@ const config = {
   shortDescription: 'A project from my Art 75 class focussing on learning Video Editing.',
   description,
   type: 'digital',
-  splashImageUrl: smallOrangeImage,
-  images: [
-    {
-      url: smallOrangeImage,
-      title: 'magna vulputate',
-      description: 'lorem ipsum foobar magna vulputate',
-    },
-  ],
+  splashImageUrl: editingThumbnail,
   videos: [
     {
       url: 'https://www.youtube.com/embed/Cw3HNFUMcss',

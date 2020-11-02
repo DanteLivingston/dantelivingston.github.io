@@ -3,7 +3,7 @@ import { CameraFill, EaselFill } from 'react-bootstrap-icons';
 import { Link, useHistory } from 'react-router-dom';
 import projects from '../config/projects';
 import digitalImage from '../config/projects/digital-textures/images/MossyRocks_3D.png';
-import traditionalImage from '../config/projects/template/images/big-red-image.jpg';
+import traditionalImage from '../config/projects/WireSculpture/images/WireBall.jpg';
 import strings from '../config/strings';
 import Carousel from './Carousel';
 import Image from './Image';
