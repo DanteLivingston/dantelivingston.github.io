@@ -28,6 +28,7 @@ const config = {
       url: CorrugatedRoof_3D,
       title: 'Corrugated Roof Texture (3D)',
       description: '3D texture of a Corrugated Roof Material | Made 2019',
+      dimensions: { height: 100, width: 100 },
     },
     {
       url: CorrugatedRoof,

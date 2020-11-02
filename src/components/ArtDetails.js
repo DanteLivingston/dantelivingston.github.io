@@ -18,6 +18,13 @@ function ArtDetails() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [imageIndex, setImageIndex] = useState(0);
   const imageLength = project?.images?.length;
+
+  function getImageTitle(image) {
+    return `${image.title}${
+      image.dimensions ? ` (${image.dimensions.height} x ${image.dimensions.width})` : ''
+    }`;
+  }
+
   return project ? (
     <>
       <PageTitle>{project.title}</PageTitle>
@@ -41,28 +48,30 @@ function ArtDetails() {
             <>
               <h2 className='text-center'>{strings.images}</h2>
               <div className='row'>
-                {project?.images?.map((image, index) => (
-                  <div
-                    className='col-4 cursor-pointer'
-                    key={index}
-                    onClick={() => {
-                      setImageIndex(index);
-                      setIsModalOpen(!isModalOpen);
-                    }}
-                  >
-                    <Image
-                      hasLink={true}
-                      height='300'
-                      keepAspectRatio={true}
-                      title={image.title}
-                      url={image.url}
-                    />
-                    <h3
-                      className='h5 mt-2 text-center'
-                      dangerouslySetInnerHTML={{ __html: image.title }}
-                    />
-                  </div>
-                ))}
+                {project?.images?.map((image, index) => {
+                  return (
+                    <div
+                      className='col-4 cursor-pointer'
+                      key={index}
+                      onClick={() => {
+                        setImageIndex(index);
+                        setIsModalOpen(!isModalOpen);
+                      }}
+                    >
+                      <Image
+                        hasLink={true}
+                        height='300'
+                        keepAspectRatio={true}
+                        title={image.title}
+                        url={image.url}
+                      />
+                      <h3
+                        className='h5 mt-2 text-center'
+                        dangerouslySetInnerHTML={{ __html: image.title }}
+                      />
+                    </div>
+                  );
+                })}
               </div>
             </>
           )}
@@ -111,7 +120,7 @@ function ArtDetails() {
       )}
       {isModalOpen && !!project.images && (
         <Lightbox
-          imageTitle={project.images[imageIndex].title}
+          imageTitle={getImageTitle(project.images[imageIndex])}
           imageCaption={project.images[imageIndex].description}
           mainSrc={project.images[imageIndex].url}
           nextSrc={project.images[(imageIndex + 1) % imageLength].url}
