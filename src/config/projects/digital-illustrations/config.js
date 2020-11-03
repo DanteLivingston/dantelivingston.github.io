@@ -5,7 +5,6 @@ import aqua from './images/Konosuba_Aqua_web.png';
 import kazuma from './images/Konosuba_Kazuma_web.png';
 import megumin from './images/Konosuba_Megumin_web.png';
 import darkness from './images/Konosuba_Darkness_web.png';
-import { InputGroupAddon } from 'reactstrap';
 
 const config = {
   slug: 'digital_illustration',
