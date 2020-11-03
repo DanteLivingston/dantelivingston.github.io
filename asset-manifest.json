@@ -1,12 +1,12 @@
 {
   "files": {
-    "static/js/0.a6cfc24b.chunk.js": "/static/js/0.a6cfc24b.chunk.js",
-    "static/js/0.a6cfc24b.chunk.js.map": "/static/js/0.a6cfc24b.chunk.js.map",
+    "static/js/0.19a0b3d6.chunk.js": "/static/js/0.19a0b3d6.chunk.js",
+    "static/js/0.19a0b3d6.chunk.js.map": "/static/js/0.19a0b3d6.chunk.js.map",
     "main.css": "/static/css/main.c4e2e0da.chunk.css",
     "main.js": "/static/js/main.458284c6.chunk.js",
     "main.js.map": "/static/js/main.458284c6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.26b7f1c1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.26b7f1c1.js.map",
+    "runtime-main.js": "/static/js/runtime-main.729ce238.js",
+    "runtime-main.js.map": "/static/js/runtime-main.729ce238.js.map",
     "static/css/3.696c4661.chunk.css": "/static/css/3.696c4661.chunk.css",
     "static/js/3.8df3e052.chunk.js": "/static/js/3.8df3e052.chunk.js",
     "static/js/3.8df3e052.chunk.js.map": "/static/js/3.8df3e052.chunk.js.map",
@@ -98,6 +98,11 @@
     "static/media/KimJungGi_Work_01.5ed09f27.jpg": "/static/media/KimJungGi_Work_01.5ed09f27.jpg",
     "static/media/KimJungGi_Work_02.536fc83c.jpg": "/static/media/KimJungGi_Work_02.536fc83c.jpg",
     "static/media/KimJungGi_Work_03.860a4fe2.jpg": "/static/media/KimJungGi_Work_03.860a4fe2.jpg",
+    "static/media/Konosuba_Aqua_web.970ef1a6.png": "/static/media/Konosuba_Aqua_web.970ef1a6.png",
+    "static/media/Konosuba_Darkness_web.6c96b23d.png": "/static/media/Konosuba_Darkness_web.6c96b23d.png",
+    "static/media/Konosuba_Kazuma_web.88217924.png": "/static/media/Konosuba_Kazuma_web.88217924.png",
+    "static/media/Konosuba_Megumin_web.4e270c8d.png": "/static/media/Konosuba_Megumin_web.4e270c8d.png",
+    "static/media/Konosubagroup_web.227246a2.png": "/static/media/Konosubagroup_web.227246a2.png",
     "static/media/LavaFlow.20a11486.jpg": "/static/media/LavaFlow.20a11486.jpg",
     "static/media/LavaFlow_3D.d87c8af4.png": "/static/media/LavaFlow_3D.d87c8af4.png",
     "static/media/Livingston_CornerOfFrame_6506.69bcba10.jpg": "/static/media/Livingston_CornerOfFrame_6506.69bcba10.jpg",
@@ -129,7 +134,7 @@
     "static/media/snowmountain.395a7b13.jpeg": "/static/media/snowmountain.395a7b13.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.26b7f1c1.js",
+    "static/js/runtime-main.729ce238.js",
     "static/css/3.696c4661.chunk.css",
     "static/js/3.8df3e052.chunk.js",
     "static/css/main.c4e2e0da.chunk.css",
