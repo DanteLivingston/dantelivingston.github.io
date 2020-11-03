@@ -7,7 +7,7 @@ import glitchArt from './glitch-art/config';
 import photoShopProjects from './photoshop-projects/config';
 import fakeProduct from './fake-product/config';
 import digitalPhotography from './digital-photography/config';
-import digitalIllustration from './digital-illustrations/config';
+//import digitalIllustration from './digital-illustrations/config';
 // import videoGallery from './video-gallery/config';
 
 //inspiration
@@ -32,7 +32,7 @@ const projects = [
   // Digital Art
   digitalTextures,
   glitchArt,
-  digitalIllustration,
+  //digitalIllustration,
   photoShopProjects,
   digitalPhotography,
   fakeProduct,
