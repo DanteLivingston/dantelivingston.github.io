@@ -15,6 +15,7 @@ const config = {
       url: audioForm,
       title: 'Follow Along Image (Sounds of Work)',
       description: 'This image is also on the google form that you can fill out.',
+      dimensions: { height: 740, width: 611 },
     },
   ],
   audios: [

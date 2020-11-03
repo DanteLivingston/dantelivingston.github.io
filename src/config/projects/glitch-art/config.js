@@ -15,16 +15,19 @@ const config = {
       url: EverestGlitchArt,
       title: 'Glitch art of Mount Everest',
       description: 'Made 2018',
+      dimensions: { height: 1080, width: 587 },
     },
     {
       url: DogGlitchArt,
       title: 'Glitch art of a dog',
       description: 'Made 2018',
+      dimensions: { height: 1460, width: 825 },
     },
     {
       url: ForestGlitchArt,
       title: 'Glitch art of a Pacific Northwest Forest',
       description: 'Made 2018',
+      dimensions: { height: 920, width: 691 },
     },
   ],
 };

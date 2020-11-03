@@ -15,16 +15,19 @@ const config = {
       url: crestBox,
       title: '3D Crest Toothpaste Box',
       description: '3D design of a Crest Toothpaste Box | Made 2018',
+      dimensions: { height: 800, width: 800 },
     },
     {
       url: crestBoxFlavor,
       title: '3D Fake Flavor Crest Toothpaste Box',
       description: '3D design of a Crest Toothpaste Box with an unique flavor | Made 2018',
+      dimensions: { height: 800, width: 800 },
     },
     {
       url: crestAd,
       title: 'Advertisement for the Crest Toothpaste',
       description: 'Advertisement to go along with the products | Made 2018',
+      dimensions: { height: 618, width: 800 },
     },
   ],
 };

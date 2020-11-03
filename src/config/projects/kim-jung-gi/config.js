@@ -19,18 +19,21 @@ const config = {
       title: 'Brush Drawing by Kim Jung Gi',
       description:
         'A scene of Gi’s which demonstrates his mastery of the brush pen. The way the deep black smudges to create form and contrast is very well done.',
+      dimensions: { height: 1332, width: 850 },
     },
     {
       url: kimGiColor,
       title: 'Samurai Cartoon by Kim Jung Gi',
       description:
         'This is some of Gi’s work in a more cartoony style. I love the way he is able to draw amazing perspective in freehand and the detail he can show off.',
+      dimensions: { height: 1080, width: 850 },
     },
     {
       url: kimGiDetail,
       title: 'Rally',
       description:
         'This is another scene of Gi’s that really emphasizes his detailed line art. The mechanics’ jumpsuits and the engines are especially inspiring to me.',
+      dimensions: { height: 1200, width: 950 },
     },
   ],
 };
