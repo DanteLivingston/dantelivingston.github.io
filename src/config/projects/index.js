@@ -7,6 +7,7 @@ import glitchArt from './glitch-art/config';
 import photoShopProjects from './photoshop-projects/config';
 import fakeProduct from './fake-product/config';
 import digitalPhotography from './digital-photography/config';
+import digitalIllustration from './digital-illustrations/config';
 // import videoGallery from './video-gallery/config';
 
 //inspiration
@@ -31,13 +32,15 @@ const projects = [
   // Digital Art
   digitalTextures,
   glitchArt,
+  digitalIllustration,
   photoShopProjects,
-  fakeProduct,
   digitalPhotography,
+  fakeProduct,
   // videoGallery,
   videoEditingProject,
-  virtualGallery,
   interactiveAudioProject,
+  virtualGallery,
+
   // Inspiration
   hayaoMiyazaki,
   aaronBlaise,
@@ -47,12 +50,12 @@ const projects = [
   kimJungGi,
   // Traditional Art
   minimalist,
-  //template,
   plasticSculpture,
   traditionalInk,
   wireSculpture,
   // Other
   tools,
+  // template,
 ];
 
 export default projects;
