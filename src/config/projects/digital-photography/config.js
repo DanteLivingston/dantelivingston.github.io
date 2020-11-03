@@ -26,6 +26,7 @@ const config = {
     'Digital Black and White photography I have done mostly consisting of nature and landscape pictures.',
   description,
   type: 'digital',
+  splashImageUrl: nightShot,
   images: [
     {
       url: largeAloe,
