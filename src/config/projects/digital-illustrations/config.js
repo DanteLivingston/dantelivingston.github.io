@@ -25,21 +25,21 @@ const config = {
       url: aqua,
       title: 'Aqua from Konosuba',
       description:
-        'My first piece of digital art, I mainly used cell shading and followed scenes from the show exactly | Made 2020',
+        'My first piece of digital art, Aqua who I mainly used cell shading with and followed scenes from the show exactly | Made 2020',
       dimensions: { height: 1200, width: 1267 },
     },
     {
       url: kazuma,
       title: 'Kazuma from Konosuba',
       description:
-        'My latest piece, I tried to incorporate a better use of shading and especially, light with Kazuma | Made 2020',
+        'My latest piece, Kazuma who I tried to incorporate a better use of shading and especially light with | Made 2020',
       dimensions: { height: 1200, width: 2000 },
     },
     {
       url: megumin,
       title: 'Megumin from Konosuba',
       description:
-        'In this piece I began to experiment with shadow options outside of cell shading | Made 2020',
+        'With Megumin I began to experiment with shadow options outside of cell shading | Made 2020',
       dimensions: { height: 1200, width: 2000 },
     },
     {
