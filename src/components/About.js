@@ -8,7 +8,7 @@ import aboutImage from '../config/about.jpg';
 function About() {
   return (
     <>
-      <PageTitle>{strings.about}x</PageTitle>
+      <PageTitle>{strings.about}</PageTitle>
       <div className='row'>
         <div className='col-4'>
           <Image
