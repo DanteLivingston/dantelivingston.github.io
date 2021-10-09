@@ -4,7 +4,7 @@ const strings = {
   tools: 'Tools',
   digital: 'Digital Art',
   digitalDescription:
-    'Showcase of my digital art projects including texture creation, photoshop projects and much more.',
+    'Showcase of my digital art projects including texture creation, photoshop projects, and much more.',
   footer: `Dante Livingston Copyright © ${new Date().getFullYear()}`,
   home: 'Home',
   images: 'Images',
@@ -42,7 +42,7 @@ const strings = {
   ],
   traditional: 'Traditional Art',
   traditionalDescription:
-    'Showcase of my traditional art projects including ink drawings, sculpture and much more.',
+    'Showcase of my traditional art projects including ink drawings, sculpture, and much more.',
 };
 
 export default strings;

@@ -41,6 +41,17 @@ Everything for configuring this is within the `src/config` directory
 
 > Tips: Order will be based on how they are organized
 
+## Deployment
+
+Essentially, a GitHub Action will be used to run `npm run deploy` any time you push your code. You can push your code through VS Code or through GitHub Desktop. For VS Code, do the following:
+
+- Click on the "Source Control" icon on the Activity Bar on the left.
+- Type in a commit message, then click the checkbox.
+- Click on the ellipsis, and click "Push".
+- To see the progress, open up [GitHub Actions](https://github.com/DanteLivingston/dantelivingston.github.io/actions) in the repository.
+
+> Note: You can still deploy manually by runing `npm run deploy` within the terminal.
+
 ---
 
 Original Instructions
