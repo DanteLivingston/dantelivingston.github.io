@@ -17,11 +17,13 @@ const strings = {
   // network list: https://github.com/jaketrent/react-social-icons/blob/master/src/_networks-db.js
   socialLinks: [
     {
+      enabled: false,
       network: 'email',
       title: 'E-mail',
       url: 'mailto:dantelivingston@gmail.com',
     },
     {
+      enabled: true,
       network: 'github',
       title: 'GitHub',
       url: 'https://www.github.com/dantelivingston',
@@ -32,6 +34,7 @@ const strings = {
     //   url: 'https://www.github.com/dantelivingston',
     // },
     {
+      enabled: true,
       network: 'linkedin',
       title: 'LinkedIn',
       url: 'https://www.linkedin.com/in/dante-livingston/',

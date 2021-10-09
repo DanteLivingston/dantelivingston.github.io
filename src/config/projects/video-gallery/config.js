@@ -1,10 +1,10 @@
 import description from './description';
-
 import bigRedImage from './images/big-red-image.jpg';
 import smallOrangeImage from './images/small-orange-image.jpg';
 import smallRedImage from './images/small-red-image.png';
 
 const config = {
+  enabled: true,
   slug: 'video-gallery',
   title: 'Video Gallery',
   shortDescription: 'Video Gallery Description',

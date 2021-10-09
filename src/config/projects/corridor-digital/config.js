@@ -1,11 +1,11 @@
 import description from './description';
-
 import corridorDigitalPFP from './images/CorridorDigital_PFP.jpg';
 import corridorDigitalMadMax from './images/CorridorDigital_Work_01.jpg';
 import corridorDigitalMashup from './images/CorridorDigital_Work_02.jpg';
 import corridorDigitalBostonDynamics from './images/CorridorDigital_Work_03.jpg';
 
 const config = {
+  enabled: true,
   slug: 'corridor-digital',
   title: 'Corridor Digital',
   shortDescription:

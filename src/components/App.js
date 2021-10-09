@@ -117,7 +117,7 @@ function App() {
         <footer className='footer mt-auto py-3 bg-dark text-white text-center'>
           <div className='container'>
             {strings.footer}
-            {strings?.socialLinks?.map((socialLink) => (
+            {strings?.socialLinks?.filter(({enabled}) => enabled)?.map((socialLink) => (
               <SocialIcon
                 key={socialLink.network}
                 style={{ height: 35, width: 35 }}

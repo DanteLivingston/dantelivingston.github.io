@@ -1,21 +1,21 @@
 import description from './description';
-
-import CorrugatedRoof_3D from './images/CorrugatedRoof_3D.png';
 import CorrugatedRoof from './images/CorrugatedRoof.png';
-import DamagedSideWalk_3D from './images/DamagedSideWalk_3D.png';
+import CorrugatedRoof_3D from './images/CorrugatedRoof_3D.png';
 import DamagedSideWalk from './images/DamagedSideWalk.jpg';
-import JungleFloorTiles_3D from './images/JungleFloorTiles_3D.png';
+import DamagedSideWalk_3D from './images/DamagedSideWalk_3D.png';
 import JungleFloorTiles from './images/JungleFloorTiles.jpg';
-import LavaFlow_3D from './images/LavaFlow_3D.png';
+import JungleFloorTiles_3D from './images/JungleFloorTiles_3D.png';
 import LavaFlow from './images/LavaFlow.jpg';
-import MossyRocks_3D from './images/MossyRocks_3D.png';
+import LavaFlow_3D from './images/LavaFlow_3D.png';
 import MossyRocks from './images/MossyRocks.jpg';
-import SandyBricks_3D from './images/SandyBricks_3D.png';
+import MossyRocks_3D from './images/MossyRocks_3D.png';
 import SandyBricks from './images/SandyBricks.png';
-import TunnelTiles_3D from './images/TunnelTiles_3D.png';
+import SandyBricks_3D from './images/SandyBricks_3D.png';
 import TunnelTiles from './images/TunnelTiles.png';
+import TunnelTiles_3D from './images/TunnelTiles_3D.png';
 
 const config = {
+  enabled: true,
   slug: 'digital-textures',
   title: '3D Textures / Assets',
   shortDescription:

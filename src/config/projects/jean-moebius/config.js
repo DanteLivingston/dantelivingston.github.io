@@ -1,11 +1,11 @@
 import description from './description';
-
 import jeanMoebiusPFP from './images/JeanGiraud_PFP.jpg';
 import jeanMoebiusCharacter from './images/JeanGiraud_Work_01.jpg';
 import jeanMoebiusLandscape from './images/JeanGiraud_Work_02.jpg';
 import jeanMoebiusDesert from './images/JeanGiraud_Work_03.jpg';
 
 const config = {
+  enabled: true,
   slug: 'jean-giraud',
   title: 'Jean Giraud "Moebius"',
   shortDescription:

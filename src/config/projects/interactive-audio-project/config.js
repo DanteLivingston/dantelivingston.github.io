@@ -1,9 +1,9 @@
-import description from './description';
-
-import audioForm from './images/AudioForm.jpg';
 import audioProject from './audios/Art110SoundProj_mixdown.mp3';
+import description from './description';
+import audioForm from './images/AudioForm.jpg';
 
 const config = {
+  enabled: true,
   slug: 'interactive-audio-project',
   title: 'Sounds of Work',
   shortDescription: 'A project where you listen to audio while filling out a form.',

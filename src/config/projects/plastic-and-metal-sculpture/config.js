@@ -1,11 +1,11 @@
 import description from './description';
-
 import sharkSideView from './images/SharkSideView.jpg';
 import sharkThreeQuartersView from './images/SharkThreeQuarterView.jpg';
 import sharkThreeQuartersView_02 from './images/SharkThreeQuarterView_02.jpg';
 import sharkTopView from './images/SharkTopView.jpg';
 
 const config = {
+  enabled: true,
   slug: 'plastic-sculpture',
   title: 'Polluted Art',
   shortDescription: 'A sculpture created with plastic waste and casted metal components.',

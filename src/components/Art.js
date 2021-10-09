@@ -15,7 +15,7 @@ function Art({ isRounded, type }) {
       )}
       <div className='row'>
         {projects
-          ?.filter((projects) => projects.type === type)
+          ?.filter((project) => project.type === type && project.enabled)
           ?.map((project) => {
             return (
               <div className='col-4 mb-4 text-center' key={project.slug}>

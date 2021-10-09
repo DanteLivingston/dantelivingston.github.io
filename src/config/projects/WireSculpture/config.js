@@ -1,11 +1,11 @@
 import description from './description';
-
 import fanFrontView from './images/FanFrontView.jpg';
 import fanSideView from './images/FanSideView.jpg';
 import fanThreeQuartersView from './images/FanThreeQuartersView.jpg';
 import wireBall from './images/WireBall.jpg';
 
 const config = {
+  enabled: true,
   slug: 'wire-sculpture',
   title: 'Wire Sculptures',
   shortDescription: 'A series of two sculptures made entirely of wire.',

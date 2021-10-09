@@ -1,5 +1,4 @@
 import description from './description';
-
 import largeAloe from './images/Adjusted3_7375.jpg';
 import wavySky from './images/Adjusted4_7456.jpg';
 import natureHike from './images/IMG_7103.jpg';
@@ -20,6 +19,7 @@ import leadingRoad from './images/Livingston_LeadingLines_6369.jpg';
 import nightShot from './images/Livingston_VisceralPrint-6812.jpg';
 
 const config = {
+  enabled: true,
   slug: 'digital-photography',
   title: 'Digital Black and White Photography',
   shortDescription:

@@ -1,10 +1,10 @@
 import description from './description';
-
 import DogGlitchArt from './images/Dog_GlitchArt.PNG';
 import EverestGlitchArt from './images/Everest_GlitchArt.jpg';
 import ForestGlitchArt from './images/Forest_GlitchArt.jpg';
 
 const config = {
+  enabled: true,
   slug: 'glitch-art',
   title: 'Glitch Art',
   shortDescription: 'Glitch Art inspired originally by Micheal Betancourt.',

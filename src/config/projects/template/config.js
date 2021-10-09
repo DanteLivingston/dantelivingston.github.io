@@ -1,11 +1,11 @@
+import audio from './audios/test.mp3';
 import description from './description';
-
 import bigRedImage from './images/big-red-image.jpg';
 import smallOrangeImage from './images/small-orange-image.jpg';
 import smallRedImage from './images/small-red-image.png';
-import audio from './audios/test.mp3';
 
 const config = {
+  enabled: true,
   slug: 'template-example',
   title: 'Template Sample',
   shortDescription: 'Template Sample Description',

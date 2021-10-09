@@ -1,13 +1,13 @@
 import description from './description';
-
 import minimalistSpread from './images/MinimalistSpread.jpg';
+import swissArmyFull from './images/SwissArmyMinimalistFull.jpg';
 import swissArmy_01 from './images/SwissArmyMinimalist_01.jpg';
 import swissArmy_02 from './images/SwissArmyMinimalist_02.jpg';
 import swissArmy_03 from './images/SwissArmyMinimalist_03.jpg';
 import swissArmy_04 from './images/SwissArmyMinimalist_04.jpg';
-import swissArmyFull from './images/SwissArmyMinimalistFull.jpg';
 
 const config = {
+  enabled: true,
   slug: 'minimalism-art',
   title: 'Minimalist / Contrast Artwork',
   shortDescription: 'A series of peices focussing on minimalism and contrast.',

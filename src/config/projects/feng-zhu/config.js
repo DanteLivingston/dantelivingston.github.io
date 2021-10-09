@@ -1,11 +1,11 @@
 import description from './description';
-
 import fengZhuPFP from './images/FengZhu_PFP.jpg';
 import fengZhuAlien from './images/FengZhu_Work_01.jpg';
 import fengZhuShip from './images/FengZhu_Work_02.jpg';
 import fengZhuLineArt from './images/FengZhu_Work_03.jpg';
 
 const config = {
+  enabled: true,
   slug: 'feng-zhu',
   title: 'Feng Zhu',
   shortDescription:

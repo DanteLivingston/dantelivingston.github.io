@@ -1,11 +1,11 @@
 import description from './description';
-
 import aaronBlaisePFP from './images/AaronBlaise_PFP.jpg';
 import aaronBlaiseLion from './images/AaronBlaise_Work_01.jpg';
 import aaronBlaiseLionCartoon from './images/AaronBlaise_Work_02.jpg';
 import aaronBlaiseEagle from './images/AaronBlaise_Work_03.jpg';
 
 const config = {
+  enabled: true,
   slug: 'aaron-blaise',
   title: 'Aaron Blaise',
   shortDescription:

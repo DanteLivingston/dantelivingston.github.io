@@ -1,11 +1,11 @@
 import description from './description';
-
 import kimGiPFP from './images/KimJungGi_PFP.jpg';
 import kimGiBrush from './images/KimJungGi_Work_01.jpg';
 import kimGiColor from './images/KimJungGi_Work_02.jpg';
 import kimGiDetail from './images/KimJungGi_Work_03.jpg';
 
 const config = {
+  enabled: true,
   slug: 'kim-jung-gi',
   title: 'Kim Jung Gi',
   shortDescription:

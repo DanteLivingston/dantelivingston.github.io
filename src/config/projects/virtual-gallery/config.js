@@ -1,8 +1,8 @@
 import description from './description';
-
 import virtualThumbnail from './images/GalleryThumbnailCompressed.jpg';
 
 const config = {
+  enabled: true,
   slug: 'virtual-gallery',
   title: 'My Virtual Gallery',
   shortDescription:

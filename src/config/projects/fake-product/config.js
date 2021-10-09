@@ -1,10 +1,10 @@
 import description from './description';
-
+import crestAd from './images/crestadd.jpg';
 import crestBox from './images/crestbox.jpg';
 import crestBoxFlavor from './images/crestboxflavor.jpg';
-import crestAd from './images/crestadd.jpg';
 
 const config = {
+  enabled: true,
   slug: 'fake-crest-product',
   title: 'Creating a Crest Product in Photoshop',
   shortDescription: 'A redesign of the Crest box as well as a new product.',

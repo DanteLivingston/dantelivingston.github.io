@@ -1,5 +1,4 @@
 import description from './description';
-
 import drawing_01 from './images/InkDrawing_01.jpg';
 import drawing_02 from './images/InkDrawing_02.jpg';
 import drawing_03 from './images/InkDrawing_03.jpg';
@@ -9,6 +8,7 @@ import drawing_06 from './images/InkDrawing_06.jpg';
 import drawing_07 from './images/InkDrawing_07.jpg';
 
 const config = {
+  enabled: true,
   slug: 'ink-drawing',
   title: 'Traditional Ink Drawings',
   shortDescription: 'Nature studies done traditionally with a bamboo quill and ink.',

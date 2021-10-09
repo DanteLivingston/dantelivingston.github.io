@@ -1,8 +1,8 @@
 import description from './description';
-
 import editingThumbnail from './images/EditingProjThumbnailCompressedl.jpg';
 
 const config = {
+  enabled: true,
   slug: 'video-editing-project',
   title: 'Walking Through my Home',
   shortDescription: 'A project from my Art 75 class focussing on learning Video Editing.',
