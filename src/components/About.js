@@ -1,9 +1,9 @@
 import about from '../config/about';
+import aboutImage from '../config/about.jpg';
 import strings from '../config/strings';
 import Art from './Art';
 import Image from './Image';
 import PageTitle from './PageTitle';
-import aboutImage from '../config/about.jpg';
 
 function About() {
   return (
