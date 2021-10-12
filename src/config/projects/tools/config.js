@@ -4,7 +4,7 @@ import smallOrangeImage from './images/small-orange-image.jpg';
 import smallRedImage from './images/small-red-image.png';
 
 const config = {
-  enabled: true,
+  enabled: false,
   slug: 'tools',
   title: 'Tools',
   shortDescription: 'These are some of my favorite tools',

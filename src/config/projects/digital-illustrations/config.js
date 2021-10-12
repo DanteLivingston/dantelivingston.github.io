@@ -6,7 +6,7 @@ import kazuma from './images/Konosuba_Kazuma_web.png';
 import megumin from './images/Konosuba_Megumin_web.png';
 
 const config = {
-  enabled: true,
+  enabled: false,
   slug: 'digital_illustration',
   title: 'Digital Illustrations',
   shortDescription: 'A series of digital illustrations of characters from the anime "KonoSuba"',

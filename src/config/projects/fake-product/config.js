@@ -4,7 +4,7 @@ import crestBox from './images/crestbox.jpg';
 import crestBoxFlavor from './images/crestboxflavor.jpg';
 
 const config = {
-  enabled: true,
+  enabled: false,
   slug: 'fake-crest-product',
   title: 'Creating a Crest Product in Photoshop',
   shortDescription: 'A redesign of the Crest box as well as a new product.',

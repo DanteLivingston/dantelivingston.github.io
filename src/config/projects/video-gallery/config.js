@@ -4,7 +4,7 @@ import smallOrangeImage from './images/small-orange-image.jpg';
 import smallRedImage from './images/small-red-image.png';
 
 const config = {
-  enabled: true,
+  enabled: false,
   slug: 'video-gallery',
   title: 'Video Gallery',
   shortDescription: 'Video Gallery Description',

@@ -5,7 +5,7 @@ import smallOrangeImage from './images/small-orange-image.jpg';
 import smallRedImage from './images/small-red-image.png';
 
 const config = {
-  enabled: true,
+  enabled: false,
   slug: 'template-example',
   title: 'Template Sample',
   shortDescription: 'Template Sample Description',
