@@ -1,11 +1,11 @@
 import description from './description';
-//import drawing_01 from './images/InkDrawing_01.jpg';
-//import drawing_02 from './images/InkDrawing_02.jpg';
-//import drawing_03 from './images/InkDrawing_03.jpg';
-//import drawing_04 from './images/InkDrawing_04.jpg';
-//import drawing_05 from './images/InkDrawing_05.jpg';
-//import drawing_06 from './images/InkDrawing_06.jpg';
-//import drawing_07 from './images/InkDrawing_07.jpg';
+import drawing_01 from './images/InkDrawing_01.jpg';
+import drawing_02 from './images/InkDrawing_02.jpg';
+import drawing_03 from './images/InkDrawing_03.jpg';
+import drawing_04 from './images/InkDrawing_04.jpg';
+import drawing_05 from './images/InkDrawing_05.jpg';
+import drawing_06 from './images/InkDrawing_06.jpg';
+import drawing_07 from './images/InkDrawing_07.jpg';
 
 const config = {
   enabled: false,
