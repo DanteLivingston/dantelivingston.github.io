@@ -1,7 +1,7 @@
 import description from './description';
-import crestAd from './images/crestadd.jpg';
-import crestBox from './images/crestbox.jpg';
-import crestBoxFlavor from './images/crestboxflavor.jpg';
+//import crestAd from './images/crestadd.jpg';
+//import crestBox from './images/crestbox.jpg';
+//import crestBoxFlavor from './images/crestboxflavor.jpg';
 
 const config = {
   enabled: false,

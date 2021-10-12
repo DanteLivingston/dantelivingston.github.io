@@ -1,9 +1,9 @@
 import description from './description';
-import group from './images/Konosubagroup_web.png';
-import aqua from './images/Konosuba_Aqua_web.png';
-import darkness from './images/Konosuba_Darkness_web.png';
-import kazuma from './images/Konosuba_Kazuma_web.png';
-import megumin from './images/Konosuba_Megumin_web.png';
+//import group from './images/Konosubagroup_web.png';
+//import aqua from './images/Konosuba_Aqua_web.png';
+//import darkness from './images/Konosuba_Darkness_web.png';
+//import kazuma from './images/Konosuba_Kazuma_web.png';
+//import megumin from './images/Konosuba_Megumin_web.png';
 
 const config = {
   enabled: false,

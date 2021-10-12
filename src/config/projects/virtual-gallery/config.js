@@ -1,5 +1,5 @@
 import description from './description';
-import virtualThumbnail from './images/GalleryThumbnailCompressed.jpg';
+//import virtualThumbnail from './images/GalleryThumbnailCompressed.jpg';
 
 const config = {
   enabled: false,
