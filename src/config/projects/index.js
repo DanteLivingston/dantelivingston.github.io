@@ -6,7 +6,6 @@ import interactiveAudioProject from './interactive-audio-project/config';
 import glitchArt from './glitch-art/config';
 import photoShopProjects from './photoshop-projects/config';
 import fakeProduct from './fake-product/config';
-import digitalPhotography from './digital-photography/config';
 import digitalIllustration from './digital-illustrations/config';
 // import videoGallery from './video-gallery/config';
 
@@ -19,6 +18,7 @@ import jeanMoebius from './jean-moebius/config';
 import kimJungGi from './kim-jung-gi/config';
 
 //traditional
+import digitalPhotography from './digital-photography/config';
 import minimalist from './minimalist-art/config';
 import plasticSculpture from './plastic-and-metal-sculpture/config';
 import traditionalInk from './traditional-ink-drawing/config';
