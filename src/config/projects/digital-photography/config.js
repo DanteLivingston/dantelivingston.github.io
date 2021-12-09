@@ -1,9 +1,9 @@
 import description from './description';
 import largeAloe from './images/Adjusted3_7375.jpg';
 import wavySky from './images/Adjusted4_7456.jpg';
-import natureHike from './images/IMG_7103.jpg';
-import natureHikeAdjusted from './images/IMG_7120.jpg';
-import natureHikeWide from './images/IMG_7125.jpg';
+//import natureHike from './images/IMG_7103.jpg';
+//import natureHikeAdjusted from './images/IMG_7120.jpg';
+//import natureHikeWide from './images/IMG_7125.jpg';
 import leadingTrail from './images/IMG_7131.jpg';
 import mushroom from './images/IMG_7145.jpg';
 import overlook from './images/IMG_7196.jpg';
@@ -25,7 +25,7 @@ const config = {
   shortDescription:
     'Digital Black and White photography I have done mostly consisting of nature and landscape pictures.',
   description,
-  type: 'digital',
+  type: 'traditional',
   splashImageUrl: nightShot,
   images: [
     {
@@ -40,24 +40,24 @@ const config = {
       description: 'Picture of a single Aloe plant on a hike behind my house | Made 2019',
       dimensions: { height: 1440, width: 960 },
     },
-    {
-      url: natureHike,
-      title: 'Nature Hike Photography',
-      description: 'Pictures from a hike behind my house | Made 2019',
-      dimensions: { height: 1080, width: 720 },
-    },
-    {
-      url: natureHikeAdjusted,
-      title: 'Nature Hike Photography with Adjustments',
-      description: 'Pictures from a hike behind my house - Adjusted Contrast | Made 2019',
-      dimensions: { height: 1080, width: 720 },
-    },
-    {
-      url: natureHikeWide,
-      title: 'Nature Hike Photography Cropped',
-      description: 'Pictures from a hike behind my house - Wideangle | Made 2019',
-      dimensions: { height: 1080, width: 720 },
-    },
+    // {
+    //   url: natureHike,
+    //   title: 'Nature Hike Photography',
+    //   description: 'Pictures from a hike behind my house | Made 2019',
+    //   dimensions: { height: 1080, width: 720 },
+    // },
+    // {
+    //   url: natureHikeAdjusted,
+    //   title: 'Nature Hike Photography with Adjustments',
+    //   description: 'Pictures from a hike behind my house - Adjusted Contrast | Made 2019',
+    //   dimensions: { height: 1080, width: 720 },
+    // },
+    // {
+    //   url: natureHikeWide,
+    //   title: 'Nature Hike Photography Cropped',
+    //   description: 'Pictures from a hike behind my house - Wideangle | Made 2019',
+    //   dimensions: { height: 1080, width: 720 },
+    // },
     {
       url: leadingTrail,
       title: 'Leading Trail',

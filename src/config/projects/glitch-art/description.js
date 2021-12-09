@@ -2,9 +2,5 @@ const description = `<p>This is a series of images that have been “glitched”
 
 <p>The images were all created by importing image files into programs that do not traditionally accept them. Values were then changed and they were exported as images again to give me the glitch effect with some of the key programs used being Audacity and Premiere Pro. Having the images being visible through the glitches themselves was also intentional as a way to still illustrate the underlying, original product that I had then warped.</p>
 
-<hr/>
-
-<p><strong>Links to Programs Used:</strong></p>
-
-<ul><li><a rel='noopener noreferrer' target='_blank' href="https://www.audacityteam.org/">Audacity</a></li><li><a rel='noopener noreferrer' target='_blank' href="https://www.adobe.com/products/premiere.html">Adobe Premiere Pro</a></li></ul>`
+<hr/>`
 export default description

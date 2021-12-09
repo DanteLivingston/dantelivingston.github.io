@@ -2,5 +2,5 @@ const description = `<p>Corridor Digital is a group of artists who create narrat
 
 <hr/>
 
-<ul><li><p><a rel='noopener noreferrer' target='_blank' href="https://www.corridordigital.com/join">Corridor Digital&#39;s Website</a></p></li><li><p><a rel='noopener noreferrer' target='_blank' href="https://www.youtube.com/user/CorridorDigital">Corridor Digital&#39;s Youtube Channel</a></p></li><li><p><a rel='noopener noreferrer' target='_blank' href="https://www.instagram.com/corridordigital/?hl=en">Corridor Digital&#39;s Instagram</a></p></li><li><p><a rel='noopener noreferrer' target='_blank' href="https://twitter.com/CorridorDigital">Corridor Digital&#39;s Twitter</a></p></li></ul>`
+<ul><li><a rel='noopener noreferrer' target='_blank' href="https://www.corridordigital.com/join">Corridor&#39;s Website</a></li></ul>`
 export default description

@@ -17,7 +17,7 @@ import TunnelTiles_3D from './images/TunnelTiles_3D.png';
 const config = {
   enabled: true,
   slug: 'digital-textures',
-  title: '3D Textures / Assets',
+  title: 'Digital Textures',
   shortDescription:
     '3D photoreal texture assets I have created to be used similarly to texture assets in triple A games and movies.',
   description,

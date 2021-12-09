@@ -5,7 +5,3 @@ I have also brought my digital photography into my digital illustration and 3D w
 For all of these photographs, I used a **[Canon EOS Rebel T3](https://www.usa.canon.com/internet/portal/us/home/support/details/cameras/eos-dslr-and-mirrorless-cameras/dslr/eos-rebel-t3/eos-rebel-t3)** with a 55mm lens. It has been extremely effective and versatile for all of my work and coupled with an editing program like Adobe Lightroom I am able to get the best results. Some of the images shown have been lightly edited, cropped and color graded, while others are raw giving them a good amount of technical range.
 
 ---
-
-- Link to [Canon Camera](https://www.usa.canon.com/internet/portal/us/home/support/details/cameras/eos-dslr-and-mirrorless-cameras/dslr/eos-rebel-t3/eos-rebel-t3)
-
-- Link to [Adobe Lightroom] (https://www.adobe.com/products/photoshop-lightroom.html)

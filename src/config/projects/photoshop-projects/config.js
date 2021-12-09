@@ -5,7 +5,7 @@ import SnowyMountain from './images/snowmountain.jpeg';
 const config = {
   enabled: true,
   slug: 'photoshop-projects',
-  title: 'Photoshop Skill Projects',
+  title: 'Photoshop Projects',
   shortDescription: 'Individual Photoshop Projects I have completed as a part of my Art 74 Class.',
   description,
   type: 'digital',

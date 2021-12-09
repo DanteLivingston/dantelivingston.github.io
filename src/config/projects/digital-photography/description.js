@@ -4,7 +4,5 @@ const description = `<p>This is a series of many works of digital photography I 
 
 <p>For all of these photographs, I used a <strong><a rel='noopener noreferrer' target='_blank' href="https://www.usa.canon.com/internet/portal/us/home/support/details/cameras/eos-dslr-and-mirrorless-cameras/dslr/eos-rebel-t3/eos-rebel-t3">Canon EOS Rebel T3</a></strong> with a 55mm lens. It has been extremely effective and versatile for all of my work and coupled with an editing program like Adobe Lightroom I am able to get the best results. Some of the images shown have been lightly edited, cropped and color graded, while others are raw giving them a good amount of technical range.</p>
 
-<hr/>
-
-<ul><li><p>Link to <a rel='noopener noreferrer' target='_blank' href="https://www.usa.canon.com/internet/portal/us/home/support/details/cameras/eos-dslr-and-mirrorless-cameras/dslr/eos-rebel-t3/eos-rebel-t3">Canon Camera</a></p></li><li><p>Link to <a rel='noopener noreferrer' target='_blank' href="https://www.adobe.com/products/photoshop-lightroom.html">Adobe Lightroom</a></p></li></ul>`
+<hr/>`
 export default description

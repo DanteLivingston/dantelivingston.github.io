@@ -2,10 +2,4 @@ Corridor Digital is a group of artists who create narrative and non-narrative sk
 
 ---
 
-- [Corridor Digital's Website](https://www.corridordigital.com/join)
-
-- [Corridor Digital's Youtube Channel](https://www.youtube.com/user/CorridorDigital)
-
-- [Corridor Digital's Instagram](https://www.instagram.com/corridordigital/?hl=en)
-
-- [Corridor Digital's Twitter](https://twitter.com/CorridorDigital)
+- [Corridor's Website](https://www.corridordigital.com/join)
